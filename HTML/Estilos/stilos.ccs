@@ -1,0 +1,50 @@
+
+ 
+
+
+html{
+background-color: #687fd4;
+}
+   
+ body{
+background-color: #687fd4;
+}  
+   
+     h1{
+   background-color: #687fd4;
+   }
+    
+    p{
+        
+        background-color: red;
+    }
+    
+  
+    cualquiera{
+        
+        background-color: #687fd4;
+    }
+
+   /*CLASES 
+   
+   NombreClase{stilos
+   }
+   
+   */
+.nombreClaseAzul{
+     background-color:blue;}
+.nombreClaseRojo{
+     background-color:red;}    
+ .nombreClaseVerde{
+     background-color:green;}
+    
+     /*POr id*/
+     #parraVerde{
+        background-color: green;
+   }
+    
+    element.style{
+        
+        border-style: solid;
+    }
+   
