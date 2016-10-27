@@ -142,7 +142,7 @@ Para finalizar se puede observar la rama creada y para sincroniza se da clic en 
 </p>
 
 
-
+A continuacion
 
 
 
