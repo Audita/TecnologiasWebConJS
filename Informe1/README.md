@@ -142,62 +142,60 @@ Para finalizar se puede observar la rama creada y para sincroniza se da clic en 
 </p>
 
 
-A continuacion
-
-
-
-
-
-Se pueden usar imágenes desde nuestros archivos en github que constan de la siguiente URL:
-
-- Github
-  * La url de github que es `https://github.com` 
-- Usuario
-  * La url de usuario de github que en este caso es: `/adrianeguez` 
-- Repositorio
-  * El repositorio de Github que estamos usando, en este caso es `/Tec_Web_Js_2016_B`
-- Rama o  Branch
-  * La rama de nuestro repositorio en este formato: `/blob/master`
-- El PATH
-  * La direccíon de nuesto archivo por ejemplo `/carpeta/subcarpeta/subsubcarpeta/archivo.png` en este ejemplo es `/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png` 
-- RAW
-  * Por ultimo mandamos un Query String Parameter de la con la variable `raw` y valor `true` de la siguiente manera: `?raw=true`
-  
-**Al final** nuestro url queda de la siguiente manera:
-
-#### `https://github.com/adrianeguez/Tec_Web_Js_2016_B/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true`
+### XML
+En el siguiente ejemplo se puede observar como se organizan los datos mediante etiquetas o tags
 
 <p align="center">
-<img src="https://github.com/adrianeguez/Tec_Web_Js_2016_B/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true" width="500" height="800">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/ejemploxml.png">
 </p>
 
-Por ultimo podemos centrar las imagenes de la siguiente manera:
+### Navegador Web
+Un navegador web cuenta con una opcion para inspeccionar una pagina web con la finalidad de identificar los diferentes elementos que componen una pagina web.
+Para inspeccionar se ingresa a un navegador en este caso Chrome y se realiza una busqueda en Google, y se da clic derecho y luego clic en inspeccionar
 
-
-```
 <p align="center">
-
-<img src="https://github.com/adrianeguez/Tec_Web_Js_2016_B/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true" width="500" height="800">
-
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/navegador1.png">
 </p>
-```
 
-### Links dentro de github
+En la parte  derecha se puede observar todos los elementos de la pagina web. Se selecciona la opcion Network y uno de los elementos de la lista y para observar informacion general de la pagina se da clic en Header.
 
-Para nosotros utilizar los Links dentro de Github debemos de hacer dos cosas:
+entre la informacion que se puede encpntrar tenemos la siguiente:
 
-1. Definir un anchor name donde nosotros queramos mover cuando demos clic de la siguiente manera y formate (**NOTESE QUE ESTAN JUNTAS**):
+**Request URL:** Indica la URL a la cual se esta haciendo la petición
+**Request Method:**
+**Status Code:**
+**Remote Adress:**
 
-  ```
-  <a name="nombre"></a>
-  ## titulo2
-  ```
-2. Después de esto debemos de linkear mediante un texto por ejemplo en una lista de la siguiente manera (**NO ELVIDAR EL `#`**):
- 
-  ```
-  - <a href="#nombre">Dale clic aqui para ir al titulo 2</a>
-  ```
-  <a name="conrec"></a>
+
+### Uso de Postman
+
+La herramienta postman puede ser instalda como una extención del navegador en este caso se va a instalar en Chrome:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/postman1.png">
+</p>
+
+En la interfaz principal de Postman se puede seleccionar el método con el cual se desea trabajar en este caso se utilizara GET.
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/postman2.png">
+</p>
+
+A continuacion se debe introducir la URL a la cual se requeire realizar una petición en este caso **https://www.google.com.ec/** y se da clic en la opción Send.
+
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/postman3.png">
+</p>
+
+Se debe elegir el tipo de lenguaje en el que se quiere obtener los resultados en este caso HTTP y acontinuacion se obtiene toda la información que se puede obtener con el metodo post.
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/postman4.png">
+</p>
+
+
+
 
 <br>
 <a href="#cabecera">A la cabecera</a>
@@ -216,4 +214,4 @@ Para nosotros utilizar los Links dentro de Github debemos de hacer dos cosas:
 
 # ¡Gracias por su atención!
 
-Author: [Adrian Eguez](https://github.com/adrianeguez)
+Author: [Audita Quito](https://github.com/Audita)
