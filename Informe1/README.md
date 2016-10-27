@@ -126,19 +126,20 @@ El navegador web o navegador de internet es el instrumento que permite a los usu
 Para crear una rama dendro de GitHub Desktop se debe primero posicionar en el repositorio en el cual se desea crear la rama y posterior dar clic en el icono de la rama:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/rama1.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/rama1.png">
+
 </p>
 
 A continuacion se establece un nombre para la rama y el origen de la misma y se da clic en create new branch:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/rama1.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/rama2.png">
 </p>
 
 Para finalizar se puede observar la rama creada y para sincroniza se da clic en Sync
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/rama3.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/rama3.png">
 </p>
 
 
@@ -146,7 +147,7 @@ Para finalizar se puede observar la rama creada y para sincroniza se da clic en 
 En el siguiente ejemplo se puede observar como se organizan los datos mediante etiquetas o tags
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/ejemploxml.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/ejemploxml.png">
 </p>
 
 ### Navegador Web
@@ -154,7 +155,7 @@ Un navegador web cuenta con una opcion para inspeccionar una pagina web con la f
 Para inspeccionar se ingresa a un navegador en este caso Chrome y se realiza una busqueda en Google, y se da clic derecho y luego clic en inspeccionar
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/navegador1.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/navegador1.png">
 </p>
 
 En la parte  derecha se puede observar todos los elementos de la pagina web. Se selecciona la opcion Network y uno de los elementos de la lista y para observar informacion general de la pagina se da clic en Header.
@@ -172,13 +173,13 @@ entre la informacion que se puede encpntrar tenemos la siguiente:
 La herramienta postman puede ser instalda como una extención del navegador en este caso se va a instalar en Chrome:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/postman1.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/postman1.png">
 </p>
 
 En la interfaz principal de Postman se puede seleccionar el método con el cual se desea trabajar en este caso se utilizara GET.
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/postman2.png">
+<img src="https://https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/postman2.png">
 </p>
 
 A continuacion se debe introducir la URL a la cual se requeire realizar una petición en este caso **https://www.google.com.ec/** y se da clic en la opción Send.
@@ -194,6 +195,7 @@ Se debe elegir el tipo de lenguaje en el que se quiere obtener los resultados en
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/postman4.png">
 </p>
 
+### Eiquetas HTML
 
 
 
