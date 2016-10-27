@@ -160,13 +160,16 @@ Para inspeccionar se ingresa a un navegador en este caso Chrome y se realiza una
 
 En la parte  derecha se puede observar todos los elementos de la pagina web. Se selecciona la opcion Network y uno de los elementos de la lista y para observar informacion general de la pagina se da clic en Header.
 
+<p align="center">
+<img src="https://https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/navegador2.png">
+</p>
+
 entre la informacion que se puede encpntrar tenemos la siguiente:
 
 **Request URL:** Indica la URL a la cual se esta haciendo la petición
 **Request Method:**
 **Status Code:**
 **Remote Adress:**
-
 
 ### Uso de Postman
 
@@ -179,23 +182,24 @@ La herramienta postman puede ser instalda como una extención del navegador en e
 En la interfaz principal de Postman se puede seleccionar el método con el cual se desea trabajar en este caso se utilizara GET.
 
 <p align="center">
-<img src="https://https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/postman2.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/postman2.png">
 </p>
 
 A continuacion se debe introducir la URL a la cual se requeire realizar una petición en este caso **https://www.google.com.ec/** y se da clic en la opción Send.
 
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/postman3.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/postman3.png">
 </p>
 
 Se debe elegir el tipo de lenguaje en el que se quiere obtener los resultados en este caso HTTP y acontinuacion se obtiene toda la información que se puede obtener con el metodo post.
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/Informes/Informe1/Imagenes/postman4.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/postman4.png">
 </p>
 
 ### Eiquetas HTML
+
 
 
 
