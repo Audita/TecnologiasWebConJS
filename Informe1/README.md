@@ -18,14 +18,14 @@
 
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
-- <a href="#marco-teorico">Marco Teorico</a>
-  * <a href="#deframa">Definicion Rama</a>
-  * <a href="#defxml">Definicion XML</a>
-  * <a href="#defhtml">Definicion HTML</a>
-  * <a href="#defwww">Definicion WWW</a>
-  * <a href="#defw3c">Definicion W3C</a>
-  * <a href="#defw3school">Definicion W3School</a>
-  * <a href="#defnavegador">Definicion Navegador</a>
+- <a href="#marco-teorico">Marco Teórico</a>
+  * <a href="#deframa">Definición Rama</a>
+  * <a href="#defxml">Definición XML</a>
+  * <a href="#defhtml">Definición HTML</a>
+  * <a href="#defwww">Definición WWW</a>
+  * <a href="#defw3c">Definición W3C</a>
+  * <a href="#defw3school">Definición W3School</a>
+  * <a href="#defnavegador">Definición Navegador</a>
   * <a href="#defstatuscode">Status Code</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
   * <a href="#rama">¿Cómo crear una rama?</a>
@@ -197,20 +197,20 @@ En el siguiente ejemplo se puede observar como se organizan los datos mediante e
 
 <a name="navegador"></a>
 ### Navegador Web
-Un navegador web cuenta con una opcion para inspeccionar una pagina web con la finalidad de identificar los diferentes elementos que componen una pagina web.
+Un navegador web cuenta con una opción para inspeccionar una página web con la finalidad de identificar los diferentes elementos que componen una página web.
 Para inspeccionar se ingresa a un navegador en este caso Chrome y se realiza una busqueda en Google, y se da clic derecho y luego clic en inspeccionar
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/navegador1.png">
 </p>
 
-En la parte  derecha se puede observar todos los elementos de la pagina web. Se selecciona la opcion Network y uno de los elementos de la lista y para observar informacion general de la pagina se da clic en Header.
+En la parte  derecha se puede observar todos los elementos de la página web. Se selecciona la opción Network y uno de los elementos de la lista y para observar información general de la pagina se da clic en Header.
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/navegador2.png">
 </p>
 
-entre la informacion que se puede encpntrar tenemos la siguiente:
+Entre la información que se puede encontrar tenemos la siguiente:
 
 - Request URL: Indica la URL a la cual se esta haciendo la petición
 - Request Method: Define el método que se esta utilizando, en este caso es el método GET
@@ -220,7 +220,7 @@ entre la informacion que se puede encpntrar tenemos la siguiente:
 <a name="Postman"></a>
 ### Uso de Postman
 
-La herramienta postman puede ser instalda como una extención del navegador en este caso se va a instalar en Chrome:
+La herramienta Postman puede ser instalada como una extención del navegador en este caso se va a instalar en Chrome:
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/postman1.png">
@@ -232,14 +232,14 @@ En la interfaz principal de Postman se puede seleccionar el método con el cual 
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/postman2.png">
 </p>
 
-A continuacion se debe introducir la URL a la cual se requeire realizar una petición en este caso **https://www.google.com.ec/** y se da clic en la opción Send.
+A continuación se debe introducir la URL a la cual se requeire realizar una petición en este caso **https://www.google.com.ec/** y se da clic en la opción Send.
 
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/postman3.png">
 </p>
 
-Se debe elegir el tipo de lenguaje en el que se quiere obtener los resultados en este caso HTTP y acontinuacion se obtiene toda la información que se puede obtener con el metodo post.
+Se debe elegir el tipo de lenguaje en el que se quiere obtener los resultados en este caso HTTP y acontinuación se obtiene toda la información que se puede obtener con el método post.
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/postman4.png">
@@ -247,14 +247,14 @@ Se debe elegir el tipo de lenguaje en el que se quiere obtener los resultados en
 <a name="estructurahtml"></a>
 ### Estrutura HTML
 
-La estructura de un archivo html es la siguiente
+La estructura de un archivo html es la siguiente:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/estruturahtml.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/estructurahtml.png">
 </p>
 
 - <!DOCTYPE html>: Indica el tipo de archivo en este caso HTML.
-- html:Indica el comienzo y el final de un documento HTML.Ninguna etiqueta o contenido puede colocarse antes o después de la etiqueta. En esta etiqueda se puede establecer el lenguaje del docuemnto HTML para esto se incluye el atributo lang:<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/lang.png">
+- html: Indica el comienzo y el final de un documento HTML. Ninguna etiqueta o contenido puede colocarse antes o después de la etiqueta. En esta etiqueda se puede establecer el lenguaje del docuemnto HTML para esto se incluye el atributo lang:  <img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/lang.png">
 - head: Delimita la parte de la cabecera del documento. La cabecera contiene información sobre el propio documento HTML
 - body: Delimita el cuerpo del documento HTML. El cuerpo encierra todos los contenidos que se muestran al usuario (párrafos de texto, imágenes, tablas)
 
@@ -314,7 +314,7 @@ Dentro de esta etiqueta uno de los atributos que se puede encontrar es **href** 
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/listaordenada.png">
 </p>
 
-Como resultado de todas las etiquetas utilizados se ha conseguido la siguiente pagina web:
+Como resultado de todas las etiquetas utilizadas se ha conseguido la siguiente pagina web:
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/pagina.png">
@@ -327,7 +327,7 @@ Para instalar de forma local se lo realiza de la siguiente manera:
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/servidor1.png">
 </p>
-Para instalar de forma local se lo realiza de la siguiente manera:
+Para instalar de forma global se lo realiza de la siguiente manera:
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/servidor2.png">
 </p>
@@ -342,12 +342,12 @@ Para inicar el servidor se realiza de la siguiente manera:
 
 ## Conclusiones y Recomendaciones
 
-- El uso de la herramienta inspeccionar dentro del navegador puede ser de gran utilidad para mejorar el proceso de desarrollo web, asi como entender el comportamiento de dicha pagina y encontrar posobles errores.
-- Mediante la extención postman se logró entender de una forma más clara el comportamiento de los métodos.
-- Es importante identificar la estructura de un documento de HTML ya que cada una de las partes tiene una finalidad diferente.
-- Es importante memorizar cada una de las etiquetas de HTML con sus respectivos atributos ya que de esta manera se puede realizar de forma rapida una página web asi como mejorar con el desarrollo.
-- se debe cuidar la sintaxis de cada una de las etiquetas y no olvidar cerrarlas.
-- Es importante identificar los códigos de estado de HTML para asi entender el estado de una p+agina web y en caso de que se encuentre un error saber si es posible corregir.
+- El uso de la herramienta inspeccionar dentro del navegador puede ser de gran utilidad para mejorar el proceso de desarrollo web, así como entender el comportamiento de dicha página y encontrar posobles errores.
+- Mediante la extención Postman se logró entender de una forma más clara el comportamiento de los métodos.
+- Es importante identificar la estructura de un documento HTML ya que cada una de las partes tiene una finalidad específica.
+- Es importante memorizar cada una de las etiquetas de HTML con sus respectivos atributos ya que de esta manera se puede realizar de forma rápida una página web así como mejorar con el desarrollo.
+- Se debe cuidar la sintaxis de cada una de las etiquetas y no olvidar cerrarlas.
+- Es importante identificar los códigos de estado de HTML para así entender el estado de una página web y en caso encontrar un codigo saber la razón del mismo.
 
 <br>
 <a href="#cabecera">A la cabecera</a>
