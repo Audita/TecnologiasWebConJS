@@ -29,17 +29,17 @@
   * <a href="#defstatuscode">Status Code</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
   * <a href="#rama">¿Cómo crear una rama?</a>
-  * <a href="#XML">XML</a>
-  * <a href="#Navegador Web">Navegador Web</a>
-  * <a href="#Uso de Postman">Uso de Postman</a>
-  * <a href="#Estructura HTML">Estructura HTML</a>
-  * <a href="#Etiquetas HTML">Etiquetas HTML</a>
-  * <a href="#Instalación del servidor">Instalación del servidor</a>
+  * <a href="#xml">XML</a>
+  * <a href="#navegador">Navegador Web</a>
+  * <a href="#Postman">Uso de Postman</a>
+  * <a href="#estructurahtml">Estructura HTML</a>
+  * <a href="#etiquetashtml">Etiquetas HTML</a>
+  * <a href="#servidor">Instalación del servidor</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
 <a name="tema"></a>
 ## Tema
-El tema de la práctica es: `Introduccion a la Web`
+El tema de la práctica es: `Introducción a la Web`
 
 <a name="objetivos"></a>
 ## Objetivos
@@ -175,7 +175,7 @@ Para crear una rama dendro de GitHub Desktop se debe primero posicionar en el re
 
 </p>
 
-A continuacion se establece un nombre para la rama y el origen de la misma y se da clic en create new branch:
+A continuación se establece un nombre para la rama y el origen de la misma y se da clic en create new branch:
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/rama2.png">
@@ -258,7 +258,7 @@ La estructura de un archivo html es la siguiente:
 - head: Delimita la parte de la cabecera del documento. La cabecera contiene información sobre el propio documento HTML
 - body: Delimita el cuerpo del documento HTML. El cuerpo encierra todos los contenidos que se muestran al usuario (párrafos de texto, imágenes, tablas)
 
-<a name="Etiquetashtml"></a>
+<a name="etiquetashtml"></a>
 ### Etiquetas HTML
 
  Dentro de la estructura de un archivo HTML se puede encontrar las siguientes etiquetas:
