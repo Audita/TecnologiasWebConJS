@@ -166,10 +166,10 @@ En la parte  derecha se puede observar todos los elementos de la pagina web. Se 
 
 entre la informacion que se puede encpntrar tenemos la siguiente:
 
-**Request URL:** Indica la URL a la cual se esta haciendo la petición
-**Request Method:**
-**Status Code:**
-**Remote Adress:**
+- **Request URL:** Indica la URL a la cual se esta haciendo la petición
+- **Request Method:**
+- **Status Code:**
+- **Remote Adress:**
 
 ### Uso de Postman
 
@@ -198,9 +198,23 @@ Se debe elegir el tipo de lenguaje en el que se quiere obtener los resultados en
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/postman4.png">
 </p>
 
-### Eiquetas HTML
+### Etiquetas HTML
 
+La estructura de un archivo html es la siguiente
 
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/estruturahtml.png">
+</p>
+
+- **<!DOCTYPE html>: **indica el tipo de archivo en este caso HTML.
+
+- **<html>:**
+
+<br>
+La segunda etiqueta es **<html>** en la cual tambien se especifica el lenguaje predeterminado con el atributo **lang** tienedo como resultado lo siguiente: **<html lang="en">**.
+<br>
+ 
+  
 
 
 <br>
