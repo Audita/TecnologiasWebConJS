@@ -34,7 +34,7 @@
   * <a href="#Postman">Uso de Postman</a>
   * <a href="#estructurahtml">Estructura HTML</a>
   * <a href="#etiquetashtml">Etiquetas HTML</a>
-  * <a href="#servidor">Instalación del servidor</a>
+  * <a href="#Servidor">Instalación del servidor</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
 <a name="tema"></a>
@@ -60,7 +60,6 @@ El tema de la práctica es: `Introducción a la Web`
 </p>
 <br><br>
 Una rama es una extensión del árbol o tronco principal. Como buena práctica dentro de las ramas del árbol es donde deberíamos introducir los cambios a nuestro proyecto y solo luego de comprobar que dichos cambios funcionan y tienen el comportamiento deseado los unimos con el árbol principal. Esto es porque queremos que el árbol se encuentre lo más limpio posible. (Fuente: [CodeHero](http://codehero.co/git-desde-cero-manejo-de-ramas/))
-
 <br>
 <a href="#cabecera">A la cabecera</a>
 
@@ -72,7 +71,6 @@ Una rama es una extensión del árbol o tronco principal. Como buena práctica d
 </p>
 <br><br>
 XML son las siglas del Lenguaje de Etiquetado Extensible. La expresión se forma a partir del acrónimo de la expresión inglesa eXtensible Markup Language.Con la palabra "Extensible" se alude a la no limitación en el número de etiquetas, ya que permite crear aquellas que sean necesarias. XML surgió comoxml un lenguaje de marcado para sustituir a HTML.La diferencia fundamental entre HTML y XML es que el primero estaba orientado a la presentación de datos, mientras que XML está orientado a los datos en sí mismos, por lo que cualquier software informático trabajará mejor con XML.(Fuente: [Hipertexto](http://www.hipertexto.info/documentos/xml.htm)) 
-
 <br>
 <a href="#cabecera">A la cabecera</a>
 
@@ -85,7 +83,6 @@ XML son las siglas del Lenguaje de Etiquetado Extensible. La expresión se forma
 <br><br>
 HTML (HyperText Markup Language) es el lenguaje utilizado en Internet para definir las páginas del World Wide Web. Los ficheros HTML son ficheros de texto puramente ASCII, que pueden ser escritos con cualquier editor básico, tal como Notepad en Windows o vi en Unix.En general puede decirse que HTML es un lenguaje sencillo y eficiente. Aunque no puede competir con los procesadores de texto en capacidades de formato, es universal, es hipertexto e hipermedia, es muy accesible, sus ficheros ocupan poco espacio en disco; por otra parte es fácil de interpretar y de enviar a través de las redes. De hecho, es uno de los estándares en los cuales las empresas están basando sus Intranets y sus servicios de información interna. 
 (Fuente: [LenguajeHTML](http://www.vc.ehu.es/jiwotvim/ISOFT2010-2011/Teoria/BloqueIV/HTML.pdf))
-
 <br>
 <a href="#cabecera">A la cabecera</a>
 
@@ -97,7 +94,6 @@ HTML (HyperText Markup Language) es el lenguaje utilizado en Internet para defin
 </p>
 <br><br>
 La World Wide Web ("telaraña de alcance mundial") o simplemente la Web, tuvo sus orígenes en 1989 en el CERN (Centro Europeo para la Investigación Nuclear) ubicado en Ginebra (Suiza), en circunstancias en que el investigador británico Tim Berners-Lee se dedicaba a encontrar una solución efectiva al problema de la proliferación y la heterogeneidad de la información disponible en la Red. Integrando servicios ya existentes en Internet (como el muy utilizado Gopher por esa época) Berners-Lee desarrolló la arquitectura básica de lo que actualmente es la Web. El mismo Berners-Lee la describía de la siguiente manera: "La WWW es una forma de ver toda la información disponible en Internet como un continuo, sin rupturas. Utilizando saltos hipertextuales y búsquedas, el usuario navega a través de un mundo de información parcialmente creado a mano, parcialmente generado por computadoras de las bases de datos existentes y de los sistemas de información". (Fuente: [educoas.orgL](http://www.educoas.org/portal/bdigital/contenido/valzacchi/ValzacchiCapitulo-2New.pdf))
-
 <br>
 <a href="#cabecera">A la cabecera</a>
 
@@ -109,7 +105,6 @@ La World Wide Web ("telaraña de alcance mundial") o simplemente la Web, tuvo su
 </p>
 <br><br>
 El Consorcio World Wide Web (W3C) es una comunidad internacional donde las organizaciones Miembro, personal a tiempo completo y el público en general trabajan conjuntamente para desarrollar estándares Web. Liderado por el inventor de la Web Tim Berners-Lee y el Director Ejecutivo (CEO) Jeffrey Jaffe, la misión del W3C es guiar la Web hacia su máximo potencial.(Fuente: [W3C](http://www.w3c.es/Consorcio/))
-
 <br>
 <a href="#cabecera">A la cabecera</a>
 
@@ -121,7 +116,6 @@ El Consorcio World Wide Web (W3C) es una comunidad internacional donde las organ
 </p>
 <br><br>
 W3Schools es un sitio de desarrolladores web, con tutoriales y referencias sobre lenguajes de desarrollo web como HTML, CSS, JavaScript, PHP, SQL y Bootstrap, que cubre la mayoría de los aspectos de la programación web.(Fuente: [W3C](http://www.w3schools.com/about/))
-
 <br>
 <a href="#cabecera">A la cabecera</a>
 
@@ -134,7 +128,6 @@ W3Schools es un sitio de desarrolladores web, con tutoriales y referencias sobre
 </p>
 <br><br>
 El navegador web o navegador de internet es el instrumento que permite a los usuarios de internet navegar o surfear entre las distintas páginas de sus sitios webs preferidos.(Fuente: [Informaticahoy](http://www.informatica-hoy.com.ar/aprender-informatica/Que-es-un-navegador-web.php))
-
 <br>
 <a href="#cabecera">A la cabecera</a>
 
@@ -157,7 +150,6 @@ Ejemplos:
 500 Error Interno del Servidor
 
 (Fuente: [hipertextual](https://hipertextual.com/2015/10/codigos-de-error-en-la-web))
-
 <br>
 <a href="#cabecera">A la cabecera</a>
 
