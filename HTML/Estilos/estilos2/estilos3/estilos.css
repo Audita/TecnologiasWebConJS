@@ -1,0 +1,23 @@
+    .nombreClaseRosada{
+            background-color:#ffefd5;
+        }
+   
+    .nombreClaseCeleste{
+            background-color:#87ceeb;
+        }
+    .nombreClaseVioleta{
+            background-color:#db7093;
+        }
+    .nombreClaseAmarilla{
+            background-color:#ffff00;
+        }
+    .nombreClaseAzul{
+            background-color:#0000ff;
+        }
+        
+       /*POR ID */
+        
+        #parrafoverde
+        {
+            background-color:#4caf50;
+        }
