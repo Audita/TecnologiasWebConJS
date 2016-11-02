@@ -1,4 +1,4 @@
-# Introducción a la Web
+#CSS - Clases y Frameworks css
 
 ### Materia : `Tecnologías Web con JavaScript`
 
@@ -6,11 +6,11 @@
 <img src="http://www.javatpoint.com/images/javascript/javascript_logo.png" width="300" height="200">
 </p>
 
-### Tema : `Introducción a la Web` 
-### Fecha : `2016-10-27`
+### Tema : `CSS` 
+### Fecha : `2016-11-01`
 ### Estudiante : `Audita Jelena Quito Reyes`
 ### Profesor : `Tania Calle - Adrian Eguez`
-### Número de informe : `1`
+### Número de informe : `2`
 
 <a name="cabecera"></a>
 ## Índice de contenidos
@@ -19,22 +19,14 @@
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teórico</a>
-  * <a href="#deframa">Definición Rama</a>
-  * <a href="#defxml">Definición XML</a>
-  * <a href="#defhtml">Definición HTML</a>
-  * <a href="#defwww">Definición WWW</a>
-  * <a href="#defw3c">Definición W3C</a>
-  * <a href="#defw3school">Definición W3School</a>
-  * <a href="#defnavegador">Definición Navegador</a>
-  * <a href="#defstatuscode">Status Code</a>
+  * <a href="#defcss">Definición CSS</a>
+  * <a href="#CaracteriticasVentajas">Características y Ventajas de CSS</a>
+  * <a href="#partescss">Partes de los estilos CSS</a>
+  * <a href="#defbootstrap">Bootstrap</a>
+  * <a href="#defgrid">Grid</a>
+  
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
-  * <a href="#rama">¿Cómo crear una rama?</a>
-  * <a href="#xml">XML</a>
-  * <a href="#navegador">Navegador Web</a>
-  * <a href="#Postman">Uso de Postman</a>
-  * <a href="#estructurahtml">Estructura HTML</a>
-  * <a href="#etiquetashtml">Etiquetas HTML</a>
-  * <a href="#Servidor">Instalación del servidor</a>
+  * <a href="#usocss">Uso de CSS</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
 <a name="tema"></a>
@@ -52,283 +44,105 @@ El tema de la práctica es: `Introducción a la Web`
 
 <a name="marco-teorico"></a>
 ## Marco Teorico
-<a name="deframa"></a>
-### Definición Rama
+<a name="defcss"></a>
+### Definición CSS
 <br><br>
 <p align="center">
-<img src="http://davfl.com.mx/media/otros/learn-git/img/git_tree.png" width="300" height="200">
+<img src="http://desarrollolibre.net/public/download/empty/empty-con-otras-pseudo-class/css3.jpg" width="300" height="200">
 </p>
 <br><br>
-Una rama es una extensión del árbol o tronco principal. Como buena práctica dentro de las ramas del árbol es donde deberíamos introducir los cambios a nuestro proyecto y solo luego de comprobar que dichos cambios funcionan y tienen el comportamiento deseado los unimos con el árbol principal. Esto es porque queremos que el árbol se encuentre lo más limpio posible. (Fuente: [CodeHero](http://codehero.co/git-desde-cero-manejo-de-ramas/))
+CSS(Cascading Style Sheets) es un lenguaje de hojas de estilos creado para controlar el aspecto o presentación de los documentos electrónicos definidos con HTML y XHTML. CSS es la mejor forma de separar los contenidos y su presentación y es imprescindible para crear páginas web complejas. (Fuente: [Librosweb](http://librosweb.es/libro/css/capitulo_1.htm))
 <br>
 <a href="#cabecera">A la cabecera</a>
 
-<a name="defxml"></a>
-### Definición XML
+<a name="CaracteriticasVentajas"></a>
+### Características y ventajas de las CSS
+<br><br>
+El modo de funcionamiento de las CSS consiste en definir, mediante una sintaxis especial, la forma de presentación que se le aplicará a:
+- Un web entero, de modo que se puede definir la forma de todo el web de una sola
+vez.
+- Un documento HTML o página, se puede definir la forma, en un pequeño trozo de código en la cabecera, a toda la página.
+- Una porción del documento, aplicando estilos visibles en un trozo de la página.
+- Una etiqueta en concreto, llegando incluso a poder definir varios estilos diferentes para una sola etiqueta. Esto es muy importante ya que ofrece potencia en la  programación. Se puede definir, por ejemplo, varios tipos de párrafos: en rojo, en azul, con márgenes, sin ellos, etc.(Fuente: [bbeltran.cs](http://bbeltran.cs.buap.mx/CSS.pdf)) 
+<br>
+<a href="#cabecera">A la cabecera</a>
+
+<a name="partescss"></a>
+### Glosario Básico
+
+CSS define una serie de términos que permiten describir cada una de las partes que componen los estilos CSS. El siguiente esquema muestra las partes que forman un estilo CSS muy básico:
+<br>
+<p align="center">
+<img src="http://1.bp.blogspot.com/-apvRlDefoLc/UAXVRQIRAoI/AAAAAAAAAY0/jta7pcys7tw/s1600/foto5.jpg" width="200" height="100">
+</p>
+<br>
+Los diferentes términos se definen a continuación:
+- Regla: cada uno de los estilos que componen una hoja de estilos CSS. Cada regla está compuesta de una parte de "selectores", un símbolo de "llave de apertura" ({), otra parte denominada "declaraciones" y por último, un símbolo de "llave de cierre" (}).
+- Selector: indica el elemento o elementos HTML a los que se aplica la regla CSS.
+- Declaración: especifica los estilos que se aplican a los elementos. Está compuesta por una o más propiedades CSS.
+- Propiedad: permite modificar el aspecto de una característica del elemento.
+- Valor: indica el nuevo valor de la característica modificada en el elemento.
+(Fuente: [CSS](http://www.jesusda.com/docs/ebooks/introduccion_css.pdf))
+<br>
+<a href="#cabecera">A la cabecera</a>
+
+<a name="defbootstrap"></a>
+### Bootstrap
 <br><br>
 <p align="center">
-<img src="https://jrabascal.files.wordpress.com/2014/03/xml-2.png" width="200" height="100">
+<img src="http://i0.wp.com/www.webdisenia.com/wp-content/uploads/2015/03/002.png" width="200" height="100">
 </p>
 <br><br>
-XML son las siglas del Lenguaje de Etiquetado Extensible. La expresión se forma a partir del acrónimo de la expresión inglesa eXtensible Markup Language.Con la palabra "Extensible" se alude a la no limitación en el número de etiquetas, ya que permite crear aquellas que sean necesarias. XML surgió comoxml un lenguaje de marcado para sustituir a HTML.La diferencia fundamental entre HTML y XML es que el primero estaba orientado a la presentación de datos, mientras que XML está orientado a los datos en sí mismos, por lo que cualquier software informático trabajará mejor con XML.(Fuente: [Hipertexto](http://www.hipertexto.info/documentos/xml.htm)) 
+Bootstrap, es un framework originalmente creado por Twitter, que permite crear interfaces web con CSS y JavaScript, cuya particularidad es la de adaptar la interfaz del sitio web al tamaño del dispositivo en que se visualice. Es decir, el sitio web se adapta automáticamente al tamaño de una PC, una Tablet u otro dispositivo. Esta técnica de diseño y desarrollo se conoce como “responsive design” o diseño adaptativo. (Fuente: [arweb](http://www.arweb.com/chucherias/editorial/%C2%BFque-es-bootstrap-y-como-funciona-en-el-diseno-web.htm))
 <br>
 <a href="#cabecera">A la cabecera</a>
 
-<a name="defhtml"></a>
-### Definición HTML
+<a name="defgrid"></a>
+### Grids
 <br><br>
-<p align="center">
-<img src="http://www.educadictos.com/wp-content/uploads/2013/06/File-Adobe-Dreamweaver-HTML-01.png" width="200" height="100">
-</p>
-<br><br>
-HTML (HyperText Markup Language) es el lenguaje utilizado en Internet para definir las páginas del World Wide Web. Los ficheros HTML son ficheros de texto puramente ASCII, que pueden ser escritos con cualquier editor básico, tal como Notepad en Windows o vi en Unix.En general puede decirse que HTML es un lenguaje sencillo y eficiente. Aunque no puede competir con los procesadores de texto en capacidades de formato, es universal, es hipertexto e hipermedia, es muy accesible, sus ficheros ocupan poco espacio en disco; por otra parte es fácil de interpretar y de enviar a través de las redes. De hecho, es uno de los estándares en los cuales las empresas están basando sus Intranets y sus servicios de información interna. 
-(Fuente: [LenguajeHTML](http://www.vc.ehu.es/jiwotvim/ISOFT2010-2011/Teoria/BloqueIV/HTML.pdf))
+Bootstrap incluye un potente sistema de grids para la creación de diseños de todas las formas y tamaños. Está basado en un diseño de 12 columnas y tiene múltiples niveles. Se puede utilizar con mixins Sass o nuestras clases predefinidas. (Fuente: [arweb](http://www.arweb.com/chucherias/editorial/%C2%BFque-es-bootstrap-y-como-funciona-en-el-diseno-web.htm))
+
+El diseño de páginas basado en grids se realiza mediante filas y columnas donde se colocan los contenidos. Así funcionan los grids de Bootstrap:
+
+- Las filas siempre se definen dentro de un contenedor de tipo .container (anchura fija) o de tipo .container-fluid (anchura variable). De esta forma las filas se alinean bien y muestran el padding correcto.
+- Las filas se utilizan para agrupar horizontalmente a varias columnas.
+- El contenido siempre se coloca dentro de las columnas, ya que las filas sólo deberían contener como hijos elementos de tipo columna.
+- Bootstrap define muchas clases CSS (como por ejemplo .row y .col-xs-4) para crear rejillas rápidamente. También existen mixins de Less para crear diseños más semánticos.
+- La separación entre columnas se realiza aplicando padding. Para contrarrestar sus efectos en la primera y última columnas, las filas (elementos .row) aplican márgenes negativos.
+- Las columnas del grid define su anchura especificando cuántas de las 12 columnas de la fila ocupan.
+
 <br>
 <a href="#cabecera">A la cabecera</a>
-
-<a name="defwww"></a>
-### Definición WWW
-<br><br>
-<p align="center">
-<img src="http://kalys-solutions.com/wp-content/uploads/2016/04/The-www-of-things.jpg" width="200" height="100">
-</p>
-<br><br>
-La World Wide Web ("telaraña de alcance mundial") o simplemente la Web, tuvo sus orígenes en 1989 en el CERN (Centro Europeo para la Investigación Nuclear) ubicado en Ginebra (Suiza), en circunstancias en que el investigador británico Tim Berners-Lee se dedicaba a encontrar una solución efectiva al problema de la proliferación y la heterogeneidad de la información disponible en la Red. Integrando servicios ya existentes en Internet (como el muy utilizado Gopher por esa época) Berners-Lee desarrolló la arquitectura básica de lo que actualmente es la Web. El mismo Berners-Lee la describía de la siguiente manera: "La WWW es una forma de ver toda la información disponible en Internet como un continuo, sin rupturas. Utilizando saltos hipertextuales y búsquedas, el usuario navega a través de un mundo de información parcialmente creado a mano, parcialmente generado por computadoras de las bases de datos existentes y de los sistemas de información". (Fuente: [educoas.orgL](http://www.educoas.org/portal/bdigital/contenido/valzacchi/ValzacchiCapitulo-2New.pdf))
-<br>
-<a href="#cabecera">A la cabecera</a>
-
-<a name="defw3c"></a>
-### Definición W3C
-<br><br>
-<p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/W3C%C2%AE_Icon.svg/2000px-W3C%C2%AE_Icon.svg.png" width="200" height="100">
-</p>
-<br><br>
-El Consorcio World Wide Web (W3C) es una comunidad internacional donde las organizaciones Miembro, personal a tiempo completo y el público en general trabajan conjuntamente para desarrollar estándares Web. Liderado por el inventor de la Web Tim Berners-Lee y el Director Ejecutivo (CEO) Jeffrey Jaffe, la misión del W3C es guiar la Web hacia su máximo potencial.(Fuente: [W3C](http://www.w3c.es/Consorcio/))
-<br>
-<a href="#cabecera">A la cabecera</a>
-
-<a name="defw3school"></a>
-### Definición W3School
-<br><br>
-<p align="center">
-<img src="http://recomhub.com/blog/wp-content/uploads/2015/03/w3schools-logo.jpg" width="200" height="100">
-</p>
-<br><br>
-W3Schools es un sitio de desarrolladores web, con tutoriales y referencias sobre lenguajes de desarrollo web como HTML, CSS, JavaScript, PHP, SQL y Bootstrap, que cubre la mayoría de los aspectos de la programación web.(Fuente: [W3C](http://www.w3schools.com/about/))
-<br>
-<a href="#cabecera">A la cabecera</a>
-
-<a name="defnavegador"></a>
-### Definición Navegador
-
-<br><br>
-<p align="center">
-<img src="https://norfipc.com/img/navegadores/principales-navegadores-web.jpeg" width="200" height="100">
-</p>
-<br><br>
-El navegador web o navegador de internet es el instrumento que permite a los usuarios de internet navegar o surfear entre las distintas páginas de sus sitios webs preferidos.(Fuente: [Informaticahoy](http://www.informatica-hoy.com.ar/aprender-informatica/Que-es-un-navegador-web.php))
-<br>
-<a href="#cabecera">A la cabecera</a>
-
-<a name="defstatuscode"></a>
-### Status Code
-
-Para cada error que aparece en la web hay un código de estado HTTP enviado por el servidor web. Los códigos de estado vienen en el formato de números con 3 dígitos. El primer dígito representa la clase del código de estado:
-
-1XX: Informativo - Solicitud recibida, proceso continuo.
-2XX: Éxito - La acción fue recibida con éxito, comprendida y aceptado.
-3XX: Redirección - Hay que tomar acciones complementarias con el fin de completar la solicitud.
-4XX: Error del lado del cliente - La solicitud contiene una sintaxis incorrecta o no puede cumplirse.
-5XX: Error del lado del servidor - El servidor no pudo cumplir una aparente solicitud válida.
-
-Ejemplos:
-
-200 OK 
-304 No modificado
-404 No encontrado
-500 Error Interno del Servidor
-
-(Fuente: [hipertextual](https://hipertextual.com/2015/10/codigos-de-error-en-la-web))
-<br>
-<a href="#cabecera">A la cabecera</a>
-
-<br><br>
 
 <a name="desarrollo"></a>
 ## Desarrollo del informe
-<a name="rama"></a>
-### ¿Cómo crear una rama?
+<a name="usocss"></a>
+### Uso de CSS
 
-Para crear una rama dendro de GitHub Desktop se debe primero posicionar en el repositorio en el cual se desea crear la rama y posterior dar clic en el icono de la rama:
+## Estilo dentro del documento 
 
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/rama1.png">
-
-</p>
-
-A continuación se establece un nombre para la rama y el origen de la misma y se da clic en create new branch:
+- Dentro de la etiqueta head.- se debe aplicar el estilo dentro de la etiqueta style
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/rama2.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe2/Imagenes/head.png">
+
 </p>
 
-Para finalizar se puede observar la rama creada y para sincroniza se da clic en Sync
+- Utilizando Etiquetas.-Se debe especificar la etiqueta a la que se requiere aplicar el estilo y dentro de la misma se establece una propiedad con su respectivo valor.
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/rama3.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe2/Imagenes/etiquetas.png">
+
 </p>
 
-<a name="xml"></a>
-### XML
-En el siguiente ejemplo se puede observar como se organizan los datos mediante etiquetas o tags
+- Utilizando clases.- Se debe establecer el nombre de la clase u dentro de la misma la propiedad y el valor del estilo. Para llamar al estilo se lo debe realizar dentro de la etiqueta e indicar que es una clase y el nombre del estilo.
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/ejemploxml.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe2/Imagenes/clase.png">
+
 </p>
 
-<a name="navegador"></a>
-### Navegador Web
-Un navegador web cuenta con una opción para inspeccionar una página web con la finalidad de identificar los diferentes elementos que componen una página web.
-Para inspeccionar se ingresa a un navegador en este caso Chrome y se realiza una busqueda en Google, y se da clic derecho y luego clic en inspeccionar
 
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/navegador1.png">
-</p>
-
-En la parte  derecha se puede observar todos los elementos de la página web. Se selecciona la opción Network y uno de los elementos de la lista y para observar información general de la pagina se da clic en Header.
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/navegador2.png">
-</p>
-
-Entre la información que se puede encontrar tenemos la siguiente:
-
-- Request URL: Indica la URL a la cual se esta haciendo la petición
-- Request Method: Define el método que se esta utilizando, en este caso es el método GET
-- Status Code: Indica el código para indicar el estado en el que se encuentra la petición. En este caso es 200 lo cual indica que esta en buen estado.
-- Remote Adress: Es la dirección IP y el puerto que se utiliza.
-
-<a name="Postman"></a>
-### Uso de Postman
-
-La herramienta Postman puede ser instalada como una extención del navegador en este caso se va a instalar en Chrome:
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/postman1.png">
-</p>
-
-En la interfaz principal de Postman se puede seleccionar el método con el cual se desea trabajar en este caso se utilizara GET.
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/postman2.png">
-</p>
-
-A continuación se debe introducir la URL a la cual se requeire realizar una petición en este caso **https://www.google.com.ec/** y se da clic en la opción Send.
-
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/postman3.png">
-</p>
-
-Se debe elegir el tipo de lenguaje en el que se quiere obtener los resultados en este caso HTTP y acontinuación se obtiene toda la información que se puede obtener con el método post.
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/postman4.png">
-</p>
-<a name="estructurahtml"></a>
-### Estrutura HTML
-
-La estructura de un archivo html es la siguiente:
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/estructurahtml.png">
-</p>
-
-- <!DOCTYPE html>: Indica el tipo de archivo en este caso HTML.
-- html: Indica el comienzo y el final de un documento HTML. Ninguna etiqueta o contenido puede colocarse antes o después de la etiqueta. En esta etiqueda se puede establecer el lenguaje del docuemnto HTML para esto se incluye el atributo lang:  <img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/lang.png">
-- head: Delimita la parte de la cabecera del documento. La cabecera contiene información sobre el propio documento HTML
-- body: Delimita el cuerpo del documento HTML. El cuerpo encierra todos los contenidos que se muestran al usuario (párrafos de texto, imágenes, tablas)
-
-<a name="etiquetashtml"></a>
-### Etiquetas HTML
-
- Dentro de la estructura de un archivo HTML se puede encontrar las siguientes etiquetas:
- 
-- title: Define el título del documento, el cual se muestra en la barra de título del navegador o en las pestañas de página.
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/titulo.png">
-</p>
-- h1,h2,h3,h4,h5,h6: Son etiquetas de cabecera donde h1 es la más grande y h6 la más pequeña.
- 
- <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/EtiquetasCabeceras.png">
-</p>
- 
- Como se puede observar h1 es la cabecera más grande y h6 la más pequeña.
-  
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/Cabeceras.png">
-</p>
-
-- p: Define una parte que debe mostrarse como un párrafo.
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/parrafo.png">
-</p>
-
-- img: Representa una imagen.
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/imagen.png">
-</p>
-
-Dentro de la etiqueta img se puede observar que se encuentra el atributo **src** el cual contiene la URL del contenido integrable y el atributo **alt** el cual es texto alternativo en caso de que la imagen no se pueda mostrar.
-
-- a: Origen o destino del vínculo.
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/link.png">
-</p>
-
-Dentro de esta etiqueta uno de los atributos que se puede encontrar es **href** el cual contiene la URL de un recurso asociado.
-
-- li: Define un artículo de una lista ennumerada.
-- ul: Define una lista no ordenada de artículos.
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/listaNOordenada.png">
-</p>
-
-- ol: Define una lista ordenada de artículos.
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/listaordenada.png">
-</p>
-
-Como resultado de todas las etiquetas utilizadas se ha conseguido la siguiente pagina web:
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/pagina.png">
-</p>
-
-<a name="Servidor"></a>
-### Instalación del servidor 
-
-Para instalar de forma local se lo realiza de la siguiente manera:
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/servidor1.png">
-</p>
-Para instalar de forma global se lo realiza de la siguiente manera:
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/servidor2.png">
-</p>
-
-Para inicar el servidor se realiza de la siguiente manera:
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe1/Imagenes/servidor3.png">
-</p>
 <br>
 <a href="#cabecera">A la cabecera</a>
 
