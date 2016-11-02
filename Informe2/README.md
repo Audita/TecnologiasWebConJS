@@ -119,26 +119,26 @@ El diseño de páginas basado en grids se realiza mediante filas y columnas dond
 <a name="usocss"></a>
 ### Uso de CSS
 
-## Estilo dentro del documento 
+**Estilo dentro del documento**
 
 - Dentro de la etiqueta head.- se debe aplicar el estilo dentro de la etiqueta style
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe2/Imagenes/head.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/head.png">
 
 </p>
 
 - Utilizando Etiquetas.-Se debe especificar la etiqueta a la que se requiere aplicar el estilo y dentro de la misma se establece una propiedad con su respectivo valor.
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe2/Imagenes/etiquetas.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/etiquetas.png">
 
 </p>
 
 - Utilizando clases.- Se debe establecer el nombre de la clase u dentro de la misma la propiedad y el valor del estilo. Para llamar al estilo se lo debe realizar dentro de la etiqueta e indicar que es una clase y el nombre del estilo.
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/01.-HTML/Informe2/Imagenes/clase.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/clase.png">
 
 </p>
 
