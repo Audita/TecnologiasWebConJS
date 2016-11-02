@@ -37,10 +37,9 @@ El tema de la práctica es: `Introducción a la Web`
 ## Objetivos
 
 - Desarrollar el conocimiento Web.
-- Conocer herramientas de desarrolladores web como: postman, inspetor web
-- Aprender el uso de lenguaje HTML CSS.
-- Identificar la estructura de un archivo HTML.
-- Indetificar cada una de las etiquetas de HTML con sus respectivos atributos.
+- Conocer el lenguaje de hojas de estilo CSS.
+- Conocer las formas de aplicar un estilo dentro y fuera de un documento HTML.
+- Identificar el funcionamiento de grid en Bootstrap.
 
 <a name="marco-teorico"></a>
 ## Marco Teorico
@@ -128,32 +127,36 @@ El diseño de páginas basado en grids se realiza mediante filas y columnas dond
 
 </p>
 
-- Utilizando Etiquetas.-Se debe especificar la etiqueta a la que se requiere aplicar el estilo y dentro de la misma se establece una propiedad con su respectivo valor.
+- Por Etiquetas.-Se debe especificar la etiqueta a la que se requiere aplicar el estilo y dentro de la misma se establece una propiedad con su respectivo valor.
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/etiquetas.png">
 
 </p>
 
-- Utilizando clases.- Se debe establecer el nombre de la clase u dentro de la misma la propiedad y el valor del estilo. Para llamar al estilo se lo debe realizar dentro de la etiqueta e indicar que es una clase y el nombre del estilo.
+- Por clase.- Se debe establecer el nombre de la clase u dentro de la misma la propiedad y el valor del estilo. Para llamar al estilo se lo debe realizar dentro de la etiqueta e indicar que es una clase y el nombre del estilo.
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/clase.png">
 
 </p>
 
+- Por id.- Primero de debe poner el simbolo **#** y luego el nombre del id y dentro establecer la propiedad a utilizar con su respectivo valor
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/id.png">
 
+</p>
 <br>
 <a href="#cabecera">A la cabecera</a>
 
 ## Conclusiones y Recomendaciones
 
-- El uso de la herramienta inspeccionar dentro del navegador puede ser de gran utilidad para mejorar el proceso de desarrollo web, así como entender el comportamiento de dicha página y encontrar posobles errores.
-- Mediante la extención Postman se logró entender de una forma más clara el comportamiento de los métodos.
-- Es importante identificar la estructura de un documento HTML ya que cada una de las partes tiene una finalidad específica.
-- Es importante memorizar cada una de las etiquetas de HTML con sus respectivos atributos ya que de esta manera se puede realizar de forma rápida una página web así como mejorar con el desarrollo.
-- Se debe cuidar la sintaxis de cada una de las etiquetas y no olvidar cerrarlas.
-- Es importante identificar los códigos de estado de HTML para así entender el estado de una página web y en caso encontrar un codigo saber la razón del mismo.
+- El uso de las hojas de estilo mejorarn en gran gran medida la apriendia de una pagina web.
+- El uso de estilos fuera del documento permite unificar en una declaración todos los estilos para un archivo html, ya que si el mismo estilo es utilizado en varios documentos y este cambia es más fácil cambiar los estilos en un docuemntos que cambiar en todos los documentos html que requieran el cambio.
+- Se puede establecer estilos de varias formas las cuales deben ser aprendidas y utilizadas dependiendo de la facilidad para usarla por parte del programador. 
+- Una etiqueta en concreto puede definir varios estilos diferentes.
+- las columnas de un grid en Bootstrap se ajustan a la pantalla confrome vaya cambiado su tamaño, dichas columas se las puede dividir de varias formas pero la suma total siempre debe ser igual a doce.
+
 
 <br>
 <a href="#cabecera">A la cabecera</a>
