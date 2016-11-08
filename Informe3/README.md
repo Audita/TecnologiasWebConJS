@@ -7,7 +7,7 @@
 </p>
 
 ### Tema : `Sitio Web (Diseño, Calidad, WAI, Validación, SEO)` 
-### Fecha : `2016-11-01`
+### Fecha : `2016-11-08`
 ### Estudiante : `Audita Jelena Quito Reyes`
 ### Profesor : `Tania Calle - Adrian Eguez`
 ### Número de informe : `3`
