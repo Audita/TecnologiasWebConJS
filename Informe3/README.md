@@ -95,152 +95,195 @@ El uso de los nuevos estándares web mejora la calidad de un sitio web.
 - **Valiadación Web:** Un validador Web es un software que compara una pagina web con lso estandares web de modo que se debe convertir en un habito validad una página antes de publicar ya que se pueden encontrar varios errores a corregir, dependiendo del estándar elegido.
 - **El elemento ```<title>```:** Es uno de los mas importantes ya que describe el contenido de una página web. Incluso si el título no es visible en la página web es importante debido a que es visible en las listas de motores de búsqueda, en la barra de título del navegador y en el marcador de usuario. El título debe ser lo mas corto y descriptivo posible.
 
-- **Elementos de encabezado:** No
-- ** :** No
-- ** :** No
-
-
+- **Elementos de encabezado:** Uso ```<h1>``` para los títulos principales, y ```<h2>``` y ```<h3>``` para los títulos de nivel inferior. Es importante utilizar el elemento ```<h1>```para para describir la línea principal de una página web ya que esto ayuda a motores de búsqueda o algun software a entender la estructura de la página web.
+- **Conjunto de caracteres:** Son un conjunto de caracteres abstractos que forman parte de un documento HTML son utiles para representar esos caracteres en un fichero opara trasmitir por Internet. Estes conjunto de caracteres brindan interoperabilidad y son importantes para la calidad de un sitio web.
+- **Formatos de fecha:** La Organización Internacional de Normalización (ISO) ha definido un formato internacional para fechas como "aaaa-mm-dd", donde aaaa es el año, MM es el mes y DD es el día.
 (Fuente: [w3school](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/website/web_quality.asp.html)) 
+
 <a href="#cabecera">A la cabecera</a>
 
-<a name="defbootstrap"></a>
-### Bootstrap
+<a name="wai"></a>
+### WEB WAI
 <br>
 <p align="center">
-<img src="http://i0.wp.com/www.webdisenia.com/wp-content/uploads/2015/03/002.png" width="200" height="100">
+<img src="https://www.w3.org/WAI/TIDE/cover/wai-logo.jpg" width="200" height="100">
 </p>
 <br><br>
-Bootstrap, es un framework originalmente creado por Twitter, que permite crear interfaces web con CSS y JavaScript, cuya particularidad es la de adaptar la interfaz del sitio web al tamaño del dispositivo en que se visualice. Es decir, el sitio web se adapta automáticamente al tamaño de una PC, una Tablet u otro dispositivo. Esta técnica de diseño y desarrollo se conoce como “responsive design” o diseño adaptativo. (Fuente: [arweb](http://www.arweb.com/chucherias/editorial/%C2%BFque-es-bootstrap-y-como-funciona-en-el-diseno-web.htm))
+WAI es un conjunto de directrices destinadas a los desarrolladores y diseñadores web, acerca de cómo hacer la web accesible para personas con discapacidad.
+<br>
+
+<a name="caracteríticaswai"></a>
+### Características
+
+- **Recuerde alt:** El atributo alt le permite proporcionar un texto alternativo para una imagen en caso de que un navegador no la muestre.
+- **No utilizar Fuentes pequeñas:** Algunos usuarios con alguna discacidad viaul podrian tener dificultades en leer el texto.
+- **Elegir la mejor la letra y espacios entre líneas:** Un texto con un buen interlineado es fácil de leer.
+- **Evitar contrastes de color pobre:** El texto negro sobre un fondo blanco, o texto en blanco sobre un fondo negro, es mejor para que las personas con discapacidad puedan ver, y para su visualización en un equipo malo.
+(Fuente: [w3school](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/website/web_wai.asp.html))
+
+<a href="#cabecera">A la cabecera</a>
+
+
+<a name="validacion"></a>
+### Validacion Web
+<br>
+<p align="center">
+<img src="https://i.blogs.es/a28c53/w3c/original.png" width="200" height="100">
+</p>
+<br><br>
+Un validador Web es un software que compara una página web con los estandares web de modo que se debe convertir en un hábito validad una página antes de publicar ya que se pueden encontrar varios errores a corregir, dependiendo del estándar elegido. Entre los archivos que se pueden validar en W3C se encuentran archivos HTML, Archivos CSS, archivos XHTML, archivos XML.
+(Fuente: [w3school](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/website/web_validate.asp.html))
 <br>
 <a href="#cabecera">A la cabecera</a>
 
-<a name="defgrid"></a>
-### Grids
+
+<a name="seo"></a>
+### Web SEO
 <br>
-Bootstrap incluye un potente sistema de grid para la creación de diseños de todas las formas y tamaños. Está basado en un diseño de 12 columnas y tiene múltiples niveles. Se puede utilizar con mixins Sass o nuestras clases predefinidas. (Fuente: [arweb](http://www.arweb.com/chucherias/editorial/%C2%BFque-es-bootstrap-y-como-funciona-en-el-diseno-web.htm))
-
-El diseño de páginas basado en grids se realiza mediante filas y columnas donde se colocan los contenidos. Así funcionan los grids de Bootstrap:
-
-- Las filas siempre se definen dentro de un contenedor de tipo .container (anchura fija) o de tipo .container-fluid (anchura variable). De esta forma las filas se alinean bien y muestran el padding correcto.
-- Las filas se utilizan para agrupar horizontalmente a varias columnas.
-- El contenido siempre se coloca dentro de las columnas, ya que las filas sólo deberían contener como hijos elementos de tipo columna.
-- Bootstrap define muchas clases CSS (como por ejemplo .row y .col-xs-4) para crear un grid rápidamente. También existen mixins de Less para crear diseños más semánticos.
-- La separación entre columnas se realiza aplicando padding. Para contrarrestar sus efectos en la primera y última columnas, las filas (elementos .row) aplican márgenes negativos.
-- Las columnas del grid define su anchura especificando cuántas de las 12 columnas de la fila ocupan.
-
+<p align="center">
+<img src="http://www.meca.mx/wp-content/uploads/2015/09/SEO.jpg" width="200" height="100">
+</p>
+<br><br>
+ SEO(Search Engine Optimization)o en español optimización de motores de búsqueda, es el proceso de mejorar el ranking (visibilidad) de un sitio web en los motores de búsqueda. SEO considera cómo los motores de búsqueda de trabajo, lo que la gente busca, y qué términos de búsqueda (palabras) se escriben. Optimizar un sitio web puede implicar la edición del contenido para aumentar su relevancia para las palabras clave específicas. 
+ (Fuente: [w3school](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/website/web_search.asp.html))
 <br>
 <a href="#cabecera">A la cabecera</a>
+
+<a name="hosting"></a>
+### Web Hosting
+
+<p align="center">
+<img src="http://www.enrichfuture.com/assets/img/webhosting.jpg" width="200" height="100">
+</p>
+<br>
+- **Web Hosting Providers:** Para hacer que su sitio web visible para el mundo, que tendrá que almacenarlo en un servidor web.
+- **Web Hosting Domains:** Un nombre de dominio es un nombre único para su sitio web, debe incluir el nombre de registro de dominios.
+- **Web Hosting Technologies:** Las tecnologias de alojamiento incluyen Windows Hosting, Unix Hosting, Unix Hosting, CGI, ASP, PHP, JSP.
+(Fuente: [w3school](https://validator.w3.org/))
 
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 <a name="usocss"></a>
-### Uso de CSS
+### Validadción de páginas web
 
-**Estilo dentro del documento HTML**
-
-- Dentro de la etiqueta ```<head>```.- se debe aplicar el estilo dentro de la etiqueta style
+Para validar una página web  en W3C primero de debe ingresar a la página [Validador.w3](https://validator.w3.org/)) en la cual se puede validar por medio de la URL, archivo o pegar directamente el código. en este caso se ha elegido un archivo:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/head.png">
-
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/03.-Bootstrap/Informe3/Imagenes/validacion.png">
 </p>
 
-- Por Etiquetas.-Se debe especificar la etiqueta a la que se requiere aplicar el estilo y dentro de la misma se establece una propiedad con su respectivo valor.
+<a name="tabform"></a>
+### Tags especiales 
+
+**small**
+el elemento HTML ```<small>``` se utiliza para crear un texto secundario más ligero en cualquier encabezado
+Ejemplo:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/etiquetas.png">
-
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/03.-Bootstrap/Informe3/Imagenes/small.png">
 </p>
 
-- Por clase.- Se debe establecer el nombre de la clase y dentro de la misma la propiedad y el valor del estilo. Para llamar al estilo se lo debe realizar dentro de la etiqueta e indicar que es una clase con su respectivo nombre.
+Resultado:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/clase.png">
-
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/03.-Bootstrap/Informe3/Imagenes/smallres.png">
 </p>
 
-- Por id.- Primero de debe poner el simbolo **#** y luego el nombre del id y dentro establecer la propiedad a utilizar con su respectivo valor
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/id.png">
 
-</p>
 
-- Estilo como atributo.-Dentro de determinada etiqueta se debe poner poner como atributo ```style``` con su respectiva propiedad y valor.
+**inline code**
+Para envolver fragmentos de código en línea se utiliza ```<code>```.
+Ejemplo:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/atributo.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/03.-Bootstrap/Informe3/Imagenes/code.png">
 </p>
 
-**Estilo fuerda del documento HTML**
-
- Para definir un estilo fuera del documento HTML simplemente se debe crear un archivo.css y ubicar ahi los estilos a utilizar.
- 
- <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/estilos.png">
-</p>
- 
- Para poder utilizar los estilos del archivo estilos.css en el docuemnto HTML se debe hacer uso de la etiqueta ```<link>``` dentro de la cual se ubica el atributo ```rel``` el cual sirve para especificar la relación existente entre el documento web y el documento con el que se está realizando el enlace en este caso es una hoja de estilos ```stylesheet```, posteriormente a esto es ubica el atrubuto ```href``` el cual permite establecer la URL o ruta en la que se encuentra el documento el cual se quiere enlazar, con el documento web. En este caso es una ruta dentro de Windows.
- 
- <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/ruta.png">
-</p>
-<a name="usogrid"></a>
-### Uso de Grid
-Lo primero que se debe tener en cuenta para usar grid con Bootstrap es que se debe buscar el CDN de Bootstrap y copiarlo dentro de la cabecera  ```<head>```de la siguiente manera:
+Resultado:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/cdn.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/03.-Bootstrap/Informe3/Imagenes/coderes.png">
 </p>
 
-Una grid en Bootstrap cuenta con un diseño de 12 columnas que tienen múltiples niveles. Las 12 columnas pueden ser divididas de forma diferente pero siempre la suma total debe ser igual a doce. A continuacion se muestran varias formas de implementar:
 
-- ```col-md```: Este prefijo de clase es utilizado para pantallas de dispositivos medianos como ordenadores de sobremesa (≥992px).Para este ejemplo se ha creado 3 columnas del mismo tamaño:
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/colmd.png">
-</p>
- Resultado obtenido:
- 
- <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/colmdres.png">
-</p>
- 
-- ```col-sm```: Este prefijo de clase es utilizado para pantallas de pequeños dispositivos como Tablets (≥768px).Para este ejemplo se ha creado 4 columnas de igual tamaño:
+**User inputs**
+Se utiliza ```<kbd>``` para indicar la entrada que se introduce normalmente a través del teclado.
+Ejemplo:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/colsm.png">
-</p>
- Resultado obtenido:
- 
- <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/colsmres.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/03.-Bootstrap/Informe3/Imagenes/userinput.png">
 </p>
 
-- ```col-lg```: Este prefijo de clase es utilizado para pantallas de grandes dispositivos de sobremesa (≥1200px).Para este ejemplo se ha creado 2 columnas de igual tamaño:
+Resultado:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/collg.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/03.-Bootstrap/Informe3/Imagenes/userinputres.png">
 </p>
- Resultado obtenido:
- 
- <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/collgres.png">
-</p>
-- ```col-xs```: Este prefijo de clase es utilizado para pantallas de extra pequeños dispositivos móviles (≤768px).Para este ejemplo se ha creado una columa de tamaño 2 y dos de 5.
+
+### Tablas
+
+**Tablas predeterminadas
+
+Para este tipo de tabla básica se debe agregar la clase base ```.table```para cualquier ```<table>```.
+
+Ejemplo:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/colxs.png">
-</p>
- Resultado obtenido:
- 
- <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/colxsres.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/03.-Bootstrap/Informe3/Imagenes/tablabasica.png">
 </p>
 
-Al finalizar el resultado obtenido fue el siguiente:
+**Tablas con borde
 
- <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/resultadofinal.png">
+Para este tipo de tabla se debe añadir la clase ```.table-bordered```.
+
+Ejemplo:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/03.-Bootstrap/Informe3/Imagenes/tablaborde.png">
+</p>
+
+**Tablas Condensadas
+
+Para este tipo de tabla se debe añadir la clase base ```.table-condensed```para hacer tablas más compactas mediante la reducción de relleno de las celdas por la mitad.
+
+Ejemplo:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/03.-Bootstrap/Informe3/Imagenes/tablacondensada.png">
+</p>
+
+
+**clases contextuales
+
+Utilizar las clases de contexto para dar color a las filas de tabla o celdas individuales.
+- active: Aplica color a una fila o celda en particular.
+- success: Indica acción exitosa.
+- infor: Indica un cambio informativo neutral o acción.
+- warning: Indica una advertencia de que podrían necesitar atención.
+- danger: Indica una acción peligrosa o potencialmente negativo
+
+
+Ejemplo:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/03.-Bootstrap/Informe3/Imagenes/tablaclases.png">
+</p>
+
+### Formularios
+Bootstrap permite diseñar formularios con aspectos muy variados y define decenas de estilos para todos los campos de formulario. Los controles de formulario automáticamente reciben algo más de estilo global con Bootstrap por ejemplo todos los textos de ```<input>```, ```<textarea> ```y ```<select>``` a los elementos de la clase ```.form-control``` y tienen una anchura de 100%.
+
+Ejemplo:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/03.-Bootstrap/Informe3/Imagenes/formulario.png">
+</p>
+
+Para hacer un formulario add-on:
+
+Ejemplo:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/03.-Bootstrap/Informe3/Imagenes/formularioaddon.png">
 </p>
 
 <br>
