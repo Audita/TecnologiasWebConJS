@@ -10,7 +10,7 @@
 ### Fecha : `2016-11-01`
 ### Estudiante : `Audita Jelena Quito Reyes`
 ### Profesor : `Tania Calle - Adrian Eguez`
-### Número de informe : `2`
+### Número de informe : `3`
 
 <a name="cabecera"></a>
 ## Índice de contenidos
@@ -25,7 +25,7 @@
   * <a href="#característicascalidad">Características de Calidad</a>
   * <a href="#wai">Web WAI</a>
   * <a href="#característicaswai">Características WAI</a>
-  * <a href="#validacion">Validacion Web</a>
+  * <a href="#validacion">Validación Web</a>
   * <a href="#seo">SEO</a>
   * <a href="#hosting">Web hosting</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
@@ -62,7 +62,7 @@ El diseño web es una actividad que consiste en la planificación, diseño e imp
 <a name="característicasdiseño"></a>
 ### Características
 
-- **Los clientes son scanners:** No importa con cuanta información cuente la página, el usuario solo observa unos segundos antes que decida quedarse o no por lo que es necesario llamar su atencion en la primera frase de la página, luego de esto mantenerlo ocupado con parrafos cortos.
+- **Los clientes son scanners:** No importa con cuanta información cuente la página, el usuario solo observa unos segundos antes que decida quedarse o no por lo que es necesario llamar su atención en la primera frase de la página, luego de esto mantenerlo ocupado con parrafos cortos.
 
 - **Menos es más:** Se debe mantener los parrafos, paginas, capítulos lo mas corto posible así que si se cuenta con mucha información es mejor dividirla en trozos mas pequeños.
 
@@ -175,7 +175,7 @@ Un validador Web es un software que compara una página web con los estandares w
 <a name="validacionpag"></a>
 ### Validadción de páginas web
 
-Para validar una página web  en W3C primero de debe ingresar a la página [Validador.w3](https://validator.w3.org/)) en la cual se puede validar por medio de la URL, archivo o pegar directamente el código. en este caso se ha elegido un archivo:
+Para validar una página web  en W3C primero de debe ingresar a la página [Validador.w3](https://validator.w3.org/)) en la cual se puede validar por medio de la URL, archivo o pegar directamente el código. En este caso se ha elegido un archivo:
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/03.-Bootstrap/Informe3/Imagenes/validacion.png">
@@ -231,7 +231,7 @@ Resultado:
 
 - **Tablas predeterminadas**
 
-Para este tipo de tabla básica se debe agregar la clase base ```.table```para cualquier ```<table>```.
+Para este tipo de tabla básica se debe agregar la clase ```.table```para cualquier ```<table>```.
 
 Ejemplo:
 
@@ -274,7 +274,6 @@ Ejemplo:
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/03.-Bootstrap/Informe3/Imagenes/tablaclases.png">
 </p>
-
 <a name="formularios"></a>
 ### Formularios
 Bootstrap permite diseñar formularios con aspectos muy variados y define decenas de estilos para todos los campos de formulario. Los controles de formulario automáticamente reciben algo más de estilo global con Bootstrap por ejemplo todos los textos de ```<input>```, ```<textarea> ```y ```<select>``` a los elementos de la clase ```.form-control``` y tienen una anchura de 100%.
@@ -298,10 +297,10 @@ Ejemplo:
 
 ## Conclusiones y Recomendaciones
 
-- Al momento de realziar una pagina web es importante considerar todos los aspectos relacionados a la misma ya que para que esta sea visible para le mundo se necesita un buen diseño, que sea de calidad, que tenga accesibilidad, un lugar donde alojar, un nombre de deminio entre otras.
+- Al momento de realizar una página web es importante considerar todos los aspectos relacionados ya que para que ésta sea visible para el mundo se necesita un buen diseño, calidad, accesibilidad, hosting , un nombre de deminio entre otras.
 - Existen una varias formas de implementar una tabla, y queda a criterio del programador elegir como implementar de acuerdo a las necesidades.
 - Una página web no es mejor por poner mucha información, asi que se debe tomar en cuenta que se debe poner poco texto pero debe ser fundamental para que el usuario se interece en la misma.
-- Es importante saber como se estructura un docuemnto HTML para que estos sean visibles o fáciles de entender para motores de búsqueda o algunos programas de software.
+- Es importante saber como se estructura un docuemnto HTML para que estos sean visibles o fáciles de entender para motores de búsqueda o para algunos programas de software.
 
 <br>
 <a href="#cabecera">A la cabecera</a>
