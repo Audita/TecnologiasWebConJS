@@ -61,7 +61,7 @@ var modifiedNames = passengers.map(function(arrayNombreApellido){
     */
     
     
-    function advenrtureSelector(userChoice){
+    /*function advenrtureSelector(userChoice){
         
         
         if(userChoice==1){
@@ -81,7 +81,33 @@ var modifiedNames = passengers.map(function(arrayNombreApellido){
     
     console.log(advenrtureSelector(1));
     console.log(advenrtureSelector(2));
-    console.log(advenrtureSelector(3));
+    console.log(advenrtureSelector(3));*/
+    
+    
+    
+    var puzzlers=[
+     function(a){return 8*a-10; },   
+     function(a){return (a-3)*(a-3)*(a-3);},   
+     function(a){return a*a+4;}, 
+     function(a){return a%5; }
+    ];
+    
+    var start=2;
+    
+    var applyAndEnpty = function(input,queue){
+        
+        var resultado;
+        var longitud = queue.length;
+        for(var i=0;i<longitud;i++)
+            {
+            input=queue[i](input);
+             // queue.splice(0,1):  
+            }
+        console.log(queue);
+        return input;
+    }
+    
+    console.log(applyAndEnpty(start,puzzlers));
     
    </script> 
 </head>
