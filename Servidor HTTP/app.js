@@ -7,7 +7,25 @@ app.get('/TecnologiasWeb?', function (req, res) {
 });
 
 app.post('/TecnologiasWeb', function (req, res) {
-  res.send('Con Post');
+    
+    var usuario ={
+        
+        nombre: 'Audita',
+        Cedula: 1725386310
+        
+    }
+    
+    usuario.apellido='';
+    usuario.mascotas=[];
+    usuario.casado=false;
+    
+    console.log('Lo que tengo en el REQUEST'+req);
+    console.log('Lo que tengo en el RESPONSE'+res);
+    
+    console.log('Cabeceras del REQUEST'+req.headers);
+    console.log('Cabeceras del RESPONSE'+res.headers);
+  res.send(usuario);
+  // res.send('Picachu'); solo se puede mandar una respuesta
 });
 
 app.listen(puerto, function () {
