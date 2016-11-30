@@ -19,11 +19,16 @@ app.post('/TecnologiasWeb', function (req, res) {
     usuario.mascotas=[];
     usuario.casado=false;
     
+    
+    
     console.log('Lo que tengo en el REQUEST'+req);
     console.log('Lo que tengo en el RESPONSE'+res);
     
     console.log('Cabeceras del REQUEST'+req.headers);
     console.log('Cabeceras del RESPONSE'+res.headers);
+    
+    res.append('token','1234');
+    
   res.send(usuario);
   // res.send('Picachu'); solo se puede mandar una respuesta
 });
