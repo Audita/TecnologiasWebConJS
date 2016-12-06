@@ -124,7 +124,7 @@ Se ejecuta el comando ```npm install express --save``` para instalar npm. Si se 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/instalacion.png">
 
-**Ejemplo método get**
+### Ejemplo método get
 
 La aplicación inicia un servidor y escucha las conexiones en el puerto 5050. La aplicación responde ```Con Javascript``` para las solicitudes al URL  ```/TecnologiasWEB```. 
 
