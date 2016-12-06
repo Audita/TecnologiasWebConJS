@@ -95,114 +95,59 @@ Express es una infraestructura de aplicaciones web Node.js mínima y flexible qu
 
 <a name="desarrollo"></a>
 ## Desarrollo del informe
-<a name="usocss"></a>
-### Uso de CSS
+<a name="instalacion"></a>
+### Instalacion de Express.js
 
-**Estilo dentro del documento HTML**
 
-- Dentro de la etiqueta ```<head>```.- se debe aplicar el estilo dentro de la etiqueta style
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/head.png">
-
-</p>
-
-- Por Etiquetas.-Se debe especificar la etiqueta a la que se requiere aplicar el estilo y dentro de la misma se establece una propiedad con su respectivo valor.
+Se debe crear un directorio para que contenga la aplicación en este caso se crea la carpeta servidorHTTP y se ubica dentro de la misma:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/etiquetas.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/crearcarpeta.png">
 
 </p>
 
-- Por clase.- Se debe establecer el nombre de la clase y dentro de la misma la propiedad y el valor del estilo. Para llamar al estilo se lo debe realizar dentro de la etiqueta e indicar que es una clase con su respectivo nombre.
+Se ejecuta el comando ```npm init``` para crear un archivo ```package.json``` para la aplicación.
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/clase.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/init.png">
 
 </p>
 
-- Por id.- Primero de debe poner el simbolo **#** y luego el nombre del id y dentro establecer la propiedad a utilizar con su respectivo valor
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/id.png">
-
-</p>
-
-- Estilo como atributo.-Dentro de determinada etiqueta se debe poner poner como atributo ```style``` con su respectiva propiedad y valor.
+Mientras se instala solicita varios elementos como, por ejemplo, el nombre y la versión de la aplicación. Para para aceptar los valores predeterminados se tiene que pulsar INTRO. A continuacion se presenta el detalle de las configuraciones realizadas:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/atributo.png">
-</p>
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/detalle.png">
 
-**Estilo fuerda del documento HTML**
-
- Para definir un estilo fuera del documento HTML simplemente se debe crear un archivo.css y ubicar ahi los estilos a utilizar.
- 
- <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/estilos.png">
 </p>
- 
- Para poder utilizar los estilos del archivo estilos.css en el docuemnto HTML se debe hacer uso de la etiqueta ```<link>``` dentro de la cual se ubica el atributo ```rel``` el cual sirve para especificar la relación existente entre el documento web y el documento con el que se está realizando el enlace en este caso es una hoja de estilos ```stylesheet```, posteriormente a esto es ubica el atrubuto ```href``` el cual permite establecer la URL o ruta en la que se encuentra el documento el cual se quiere enlazar, con el documento web. En este caso es una ruta dentro de Windows.
- 
- <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/ruta.png">
-</p>
-<a name="usogrid"></a>
-### Uso de Grid
-Lo primero que se debe tener en cuenta para usar grid con Bootstrap es que se debe buscar el CDN de Bootstrap y copiarlo dentro de la cabecera  ```<head>```de la siguiente manera:
+Se ejecuta el comando ```npm install express --save``` para instalar npm. Si se deseea instalar temporalmente no se escribe ```--save```.
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/cdn.png">
-</p>
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/instalacion.png">
 
-Una grid en Bootstrap cuenta con un diseño de 12 columnas que tienen múltiples niveles. Las 12 columnas pueden ser divididas de forma diferente pero siempre la suma total debe ser igual a doce. A continuacion se muestran varias formas de implementar:
+**Ejemplo método get**
 
-- ```col-md```: Este prefijo de clase es utilizado para pantallas de dispositivos medianos como ordenadores de sobremesa (≥992px).Para este ejemplo se ha creado 3 columnas del mismo tamaño:
-
-<p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/colmd.png">
-</p>
- Resultado obtenido:
- 
- <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/colmdres.png">
-</p>
- 
-- ```col-sm```: Este prefijo de clase es utilizado para pantallas de pequeños dispositivos como Tablets (≥768px).Para este ejemplo se ha creado 4 columnas de igual tamaño:
+La aplicación inicia un servidor y escucha las conexiones en el puerto 5050. La aplicación responde ```Con Javascript``` para las solicitudes al URL  ```/TecnologiasWEB```. 
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/colsm.png">
-</p>
- Resultado obtenido:
- 
- <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/colsmres.png">
-</p>
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/get1.png">
 
-- ```col-lg```: Este prefijo de clase es utilizado para pantallas de grandes dispositivos de sobremesa (≥1200px).Para este ejemplo se ha creado 2 columnas de igual tamaño:
+</p>
+Para ejecutar la aplicación se utiliza el comando ```node``` seguido del nombre de la aplicación. Se puede observar en la consola el mensaje donde indica el puerto que esta escuchando.
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/collg.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/ejecucion1.png">
+
 </p>
- Resultado obtenido:
- 
- <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/collgres.png">
-</p>
-- ```col-xs```: Este prefijo de clase es utilizado para pantallas de extra pequeños dispositivos móviles (≤768px).Para este ejemplo se ha creado una columa de tamaño 2 y dos de 5.
+Para observar lo que devuelve en el navegador se debehost, poner el puerto utilizado con la URL establecida anteriormente``` http://localhost:5050/tecnologiasWeb``` como resultado se tendra el mensaje ```Con Javascript```
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/colxs.png">
-</p>
- Resultado obtenido:
- 
- <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/colxsres.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/navegador1.png">
 </p>
 
-Al finalizar el resultado obtenido fue el siguiente:
+Para evitar el uso de un valor de puerto quemado se usa una variable llamada puerto para facilitar el cambio de puerto cuando se requerido,
 
- <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/02.CSS/Informe2/Imagenes/resultadofinal.png">
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/puerto.png">
 </p>
 
 <br>
@@ -210,11 +155,7 @@ Al finalizar el resultado obtenido fue el siguiente:
 
 ## Conclusiones y Recomendaciones
 
-- El uso de las hojas de estilo mejoran en gran medida la apariencia de una página web.
-- El uso de estilos fuera del documento permite unificar en una declaración todos los estilos para uno o varios archivos html, ya que si el mismo estilo es utilizado en varios documentos y este cambia es más fácil cambiar los estilos en un docuemnto que cambiar en todos los documentos html que requieran el cambio.
-- Se puede establecer estilos de varias formas las cuales deben ser aprendidas y utilizadas dependiendo de la facilidad para usar por parte del programador. 
-- Una etiqueta en concreto puede definir varios estilos diferentes.
-- las columnas de un grid en Bootstrap se ajustan a la pantalla confrome vaya cambiado su tamaño, dichas columas se las puede dividir de varias formas pero la suma total siempre debe ser igual a doce.
+- El 
 
 
 <br>
@@ -224,3 +165,9 @@ Al finalizar el resultado obtenido fue el siguiente:
 # ¡Gracias por su atención!
 
 Author: [Audita Quito](https://github.com/Audita)
+
+
+
+
+
+
