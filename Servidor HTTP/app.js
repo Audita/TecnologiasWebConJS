@@ -65,30 +65,36 @@ app.get('/Usuarios/:idUsuario', function (req, res) {
 
 
 
-app.get('/TecnologiasWeb', function (req, res) {
-  
-    console.log('1 Antes de leer');
+app.get('/', function (req, res) {
+
+    console.log('1 antes de leer');
+    var todo = '';
+
     fs.readFile('./paginas/pagina.html',
-            'utf8',
-           function(error,archivoLeido){
-        fs.readFile('./paginas/pagina.html',
-            'utf8',
-           function(error,archivoLeido){
-            fs.readFile('./paginas/pagina.html',
-            'utf8',
-           function(error,archivoLeido){
-        
-            console.log('3'+error);
-            console.log('4'+archivoLeido);
-            
-});
-   });
+        'utf8',
+        function (error, archivoLeido1) {
+        todo+=archivoLeido1;
+
+            fs.readFile('./paginas/usuario.html',
+                'utf8',
+                function (error, archivoLeido2) {
+                
+                todo+=archivoLeido2;
+
+                    fs.readFile('./paginas/footer.html',
+                        'utf8',
+                        function (error, archivoLeido3) {
+                            todo+=archivoLeido3;
+                        
+                            res.send(todo);
+                        });
+                });
+
         });
-   
-    
-    console.log('2Parece que termino de leer');
-    
-});
+
+    console.log('2 parece que termino de leer');
+
+})
 
 
 app.post('/Usuarios', function (req, res) {
