@@ -1,6 +1,19 @@
 var express = require('express');
 var app = express();
 var puerto =5050;
+var fs = require('fs');
+
+var quePasa='';
+quePasa='Esta por leer el archivo';
+console.log(quePasa);
+
+
+//1r parametro es el pathm 2do codificacion
+
+
+quePasa='Termino de leer el archivo';
+console.log(quePasa);
+
 var usuarios=[
     {
         
@@ -52,8 +65,29 @@ app.get('/Usuarios/:idUsuario', function (req, res) {
 
 
 
-app.get('/TecnologiasWeb?', function (req, res) {
-  res.send('Con Javascript');
+app.get('/TecnologiasWeb', function (req, res) {
+  
+    console.log('1 Antes de leer');
+    fs.readFile('./paginas/pagina.html',
+            'utf8',
+           function(error,archivoLeido){
+        fs.readFile('./paginas/pagina.html',
+            'utf8',
+           function(error,archivoLeido){
+            fs.readFile('./paginas/pagina.html',
+            'utf8',
+           function(error,archivoLeido){
+        
+            console.log('3'+error);
+            console.log('4'+archivoLeido);
+            
+});
+   });
+        });
+   
+    
+    console.log('2Parece que termino de leer');
+    
 });
 
 
