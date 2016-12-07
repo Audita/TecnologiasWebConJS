@@ -123,6 +123,7 @@ Se ejecuta el comando ```npm install express --save``` para instalar npm. Si se 
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/instalacion.png">
+</p>
 
 ### Ejemplo método get
 
@@ -138,7 +139,7 @@ Para ejecutar la aplicación se utiliza el comando ```node``` seguido del nombre
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/ejecucion1.png">
 
 </p>
-Para observar lo que devuelve en el navegador se debehost, poner el puerto utilizado con la URL establecida anteriormente``` http://localhost:5050/tecnologiasWeb``` como resultado se tendra el mensaje ```Con Javascript```
+Para observar lo que devuelve en el navegador se debe poner localhost, el puerto utilizado con la URL establecida anteriormente``` http://localhost:5050/tecnologiasWeb``` como resultado se tendra el mensaje ```Con Javascript```
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/navegador1.png">
@@ -148,6 +149,18 @@ Para evitar el uso de un valor de puerto quemado se usa una variable llamada pue
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/puerto.png">
+</p>
+
+Para el metodo post se realiza de la siguiente forma:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/post1.png">
+</p>
+
+Para observar lo que devuelve el metodo post se utiliza postman en la cual se escribe la direccion y el método a utilizar:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/ejecucionpost.png">
 </p>
 
 <br>
