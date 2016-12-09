@@ -6,7 +6,7 @@
 <img src="http://www.javatpoint.com/images/javascript/javascript_logo.png" width="300" height="200">
 </p>
 
-### Tema : `CSS` 
+### Tema : `NPM` 
 ### Fecha : `2016-12-08`
 ### Estudiante : `Audita Jelena Quito Reyes`
 ### Profesor : `Tania Calle - Adrian Eguez`
@@ -163,9 +163,28 @@ Para observar lo que devuelve el metodo post se utiliza postman en la cual se es
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/ejecucionpost.png">
 </p>
 
+A continuacion con el metodo Post se va a enviar los datos de un usuario de la siguiente manera:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/usuario.png">
+</p>
+ 
+Con ayuda de Postman se puede observar como envia los datos el metodo post:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/Postusuario.png">
+</p>
+
+Con ayuda de Postman se puede observar como envia los datos el metodo post:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/Postusuario.png">
+</p>
+
+
+
 <br>
 <a href="#cabecera">A la cabecera</a>
-
 ## Conclusiones y Recomendaciones
 
 - El 

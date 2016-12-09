@@ -9,26 +9,21 @@ var usuarios=[
         cedula:'172635485'
         
     },
-    
     {
         
         id:2,
         nombre:'Pedro',
-        cedula:'132635485'
-        
+        cedula:'132635485' 
     },
-    
     {
         
         id:3,
         nombre:'Carlos',
         cedula:'122635485'
-        
     }
     
 ];
 var contador =3;
-
 app.get('/Usuarios/:idUsuario', function (req, res) {
  
      var idActual=req.params.idUsuario;
@@ -40,7 +35,7 @@ app.get('/Usuarios/:idUsuario', function (req, res) {
              res.json(usuarios[i]);
          }
      }
-    res.send('No esiste usuario');
+    res.send('No existe usuario');
      
 });
 
