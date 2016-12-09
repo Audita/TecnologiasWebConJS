@@ -19,14 +19,13 @@
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teórico</a>
-  * <a href="#defcss">Definición CSS</a>
-  * <a href="#CaracteriticasVentajas">Características y Ventajas de CSS</a>
-  * <a href="#partescss">Glosario Básico CSS</a>
-  * <a href="#defbootstrap">Bootstrap</a>
-  * <a href="#defgrid">Grid</a>
+  * <a href="#defnode">Definición CSS</a>
+  * <a href="#defnpm">Características y Ventajas de CSS</a>
+  * <a href="#defexpres">Glosario Básico CSS</a>
+  * <a href="#defmetodos">Bootstrap</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
-  * <a href="#usocss">Uso de CSS</a>
-  * <a href="#usogrid">Uso de Grid</a>
+  * <a href="#instalacion">Uso de CSS</a>
+  * <a href="#ejemplos">Uso de Grid</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
 <a name="tema"></a>
@@ -66,7 +65,7 @@ NPM (Node Package Manager) es un gestor de paquetes de node.js, que nos permite 
 <a href="#cabecera">A la cabecera</a>
 
 
-<a name="defnode"></a>
+<a name="defexpres"></a>
 ### Definición Express.js
 <br><br>
 <p align="center">
@@ -125,6 +124,7 @@ Se ejecuta el comando ```npm install express --save``` para instalar npm. Si se 
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/instalacion.png">
 </p>
 
+<a name="ejemplos"></a>
 ### Ejemplo método get
 
 La aplicación inicia un servidor y escucha las conexiones en el puerto 5050. La aplicación responde ```Con Javascript``` para las solicitudes al URL  ```/TecnologiasWEB```. 
@@ -187,11 +187,70 @@ Los resultados se los puede observar a traves de Postman
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/Postusuario2.png">
 </p>
 
+
+El metodo append es utilizado para agregar valor a la cabecera, a continuacion se va a agregar un tohen para esto se utiliza el metodo post.
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/token.png">
+</p>
+
+Utilizando Postma se puede observar que se ha agregado el token en la cabecera:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/Posttoken.png">
+</p>
+
+A continuacion se crea un arreglo de usuario en el cual se va a recibir como parametro el id del usuario y se buscara dicho usuario y se devolvera el usuario correspondiente:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/arregloUsuario.png">
+</p>
+
+En el URL se envia como parametro el id de usuario a buscar y nos devuelve los datos del usuario utilizando un json.
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/resArreglo.png">
+</p>
+
+Para devolver todo el arreglo de usuario se lo realiza de la siguiente manera:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/todos.png">
+</p>
+
+En el navegdor se obtiene los resultados siguientes:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/resArregloCOmpleto.png">
+</p>
+
+Para crear un nuevo usuario se utiliza push con el metodo post, para esto se necesita enviar los parametros utilizando res y query.
+
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/CrearUsuario.png">
+</p>
+
+A continuacion en el postman enviamos los datos del nuevo usuario.
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/maria.png">
+</p>
+
+Se ha podido crear un nuevo usuario y los resultados se puede observar tanto en Postman como en la consola:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/maria2.png">
+</p>
 <br>
+
 <a href="#cabecera">A la cabecera</a>
 ## Conclusiones y Recomendaciones
 
-- El 
+- Es necesario identificar el funcionamiento de cada uno de los métodos ya que cada uno tiene un comportamiento distinto.
+- Se debe identificar la diferencia entre res y req ya que cada uno tiene un proposito diferente.
+- Se logro instalr express.js de una manera rapida, sencilla y asi mismo su instalción reslto bastante corta.
+- Postam es de gran ayuda a la hora de entender el funcionamiento de los métodos ya que se puede simular peticiones y ver como el servidor responde a las mismas, ademas que el tiene una interfaz sencilla que hace intuitivo su funcionamiento.
 
 
 <br>
