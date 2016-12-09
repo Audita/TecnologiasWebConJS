@@ -19,13 +19,13 @@
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teórico</a>
-  * <a href="#defnode">Definición CSS</a>
-  * <a href="#defnpm">Características y Ventajas de CSS</a>
+  * <a href="#defnode">Node,js</a>
+  * <a href="#defnpm">NPM</a>
   * <a href="#defexpres">Glosario Básico CSS</a>
-  * <a href="#defmetodos">Bootstrap</a>
+  * <a href="#defmetodos">Métodos</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
-  * <a href="#instalacion">Uso de CSS</a>
-  * <a href="#ejemplos">Uso de Grid</a>
+  * <a href="#instalacion">Instalación de Express,js</a>
+  * <a href="#ejemplos">Ejemplos</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
 <a name="tema"></a>
@@ -64,7 +64,6 @@ NPM (Node Package Manager) es un gestor de paquetes de node.js, que nos permite 
 <br>
 <a href="#cabecera">A la cabecera</a>
 
-
 <a name="defexpres"></a>
 ### Definición Express.js
 <br><br>
@@ -75,7 +74,6 @@ NPM (Node Package Manager) es un gestor de paquetes de node.js, que nos permite 
 Express es una infraestructura de aplicaciones web Node.js mínima y flexible que proporciona un conjunto sólido de características para las aplicaciones web y móviles. (Fuente: [expressjs](http://expressjs.com/es/))
 <br>
 <a href="#cabecera">A la cabecera</a>
-
 
 <a name="defmetodos"></a>
 ### Métodos
@@ -91,12 +89,10 @@ Express es una infraestructura de aplicaciones web Node.js mínima y flexible qu
 <br>
 <a href="#cabecera">A la cabecera</a>
 
-
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 <a name="instalacion"></a>
 ### Instalacion de Express.js
-
 
 Se debe crear un directorio para que contenga la aplicación en este caso se crea la carpeta servidorHTTP y se ubica dentro de la misma:
 
@@ -145,25 +141,25 @@ Para observar lo que devuelve en el navegador se debe poner localhost, el puerto
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/navegador1.png">
 </p>
 
-Para evitar el uso de un valor de puerto quemado se usa una variable llamada puerto para facilitar el cambio de puerto cuando se requerido,
+Para evitar el uso de un valor de puerto quemado se usa una variable llamada puerto para facilitar el cambio de puerto cuando se requerido.
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/puerto.png">
 </p>
 
-Para el metodo post se realiza de la siguiente forma:
+Para el método post se realiza de la siguiente forma:
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/post1.png">
 </p>
 
-Para observar lo que devuelve el metodo post se utiliza postman en la cual se escribe la direccion y el método a utilizar:
+Para observar lo que devuelve el método post se utiliza postman en la cual se escribe la dirección y el método a utilizar:
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/ejecucionpost.png">
 </p>
 
-A continuacion con el metodo Post se va a enviar los datos de un usuario de la siguiente manera:
+A continuacion con el método Post se va a enviar los datos de un usuario de la siguiente manera:
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/usuario.png">
@@ -188,19 +184,19 @@ Los resultados se los puede observar a traves de Postman
 </p>
 
 
-El metodo append es utilizado para agregar valor a la cabecera, a continuacion se va a agregar un tohen para esto se utiliza el metodo post.
+El metodo append es utilizado para agregar valor a la cabecera, a continuación se va a agregar un token para esto se utiliza el metodo post.
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/token.png">
 </p>
 
-Utilizando Postma se puede observar que se ha agregado el token en la cabecera:
+Utilizando Postman se puede observar que se ha agregado el token en la cabecera:
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/Posttoken.png">
 </p>
 
-A continuacion se crea un arreglo de usuario en el cual se va a recibir como parametro el id del usuario y se buscara dicho usuario y se devolvera el usuario correspondiente:
+A continuación se creará un arreglo de usuarios en el cual se va a recibir como parametro el id del usuario para buscar y devolver el usuario correspondiente:
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/arregloUsuario.png">
@@ -221,7 +217,7 @@ Para devolver todo el arreglo de usuario se lo realiza de la siguiente manera:
 En el navegdor se obtiene los resultados siguientes:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/resArregloCOmpleto.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/resArregloCompleto.png">
 </p>
 
 Para crear un nuevo usuario se utiliza push con el metodo post, para esto se necesita enviar los parametros utilizando res y query.
@@ -231,7 +227,7 @@ Para crear un nuevo usuario se utiliza push con el metodo post, para esto se nec
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/CrearUsuario.png">
 </p>
 
-A continuacion en el postman enviamos los datos del nuevo usuario.
+A continuación en el postman enviamos los datos del nuevo usuario.
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/maria.png">
@@ -248,9 +244,9 @@ Se ha podido crear un nuevo usuario y los resultados se puede observar tanto en 
 ## Conclusiones y Recomendaciones
 
 - Es necesario identificar el funcionamiento de cada uno de los métodos ya que cada uno tiene un comportamiento distinto.
-- Se debe identificar la diferencia entre res y req ya que cada uno tiene un proposito diferente.
-- Se logro instalr express.js de una manera rapida, sencilla y asi mismo su instalción reslto bastante corta.
-- Postam es de gran ayuda a la hora de entender el funcionamiento de los métodos ya que se puede simular peticiones y ver como el servidor responde a las mismas, ademas que el tiene una interfaz sencilla que hace intuitivo su funcionamiento.
+- Se debe identificar la diferencia entre res y req ya que cada uno tiene un propsito diferente.
+- Se logró instalár express.js de una manera rápida, sencilla y asi mismo su instalción reslto bastante corta.
+- Postam es de gran ayuda a la hora de entender el funcionamiento de los métodos ya que se puede simular peticiones y ver como el servidor responde a las mismas, además que el tiene una interfaz sencilla que hace intuitivo su funcionamiento.
 
 
 <br>
