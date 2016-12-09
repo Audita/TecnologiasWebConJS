@@ -175,13 +175,17 @@ Con ayuda de Postman se puede observar como envia los datos el metodo post:
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/Postusuario.png">
 </p>
 
-Con ayuda de Postman se puede observar como envia los datos el metodo post:
+Para enviar mas atributos al usuario se lo debe realziar de la siguiente manera:
 
 <p align="center">
-<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/Postusuario.png">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/usuario2.png">
 </p>
 
+Los resultados se los puede observar a traves de Postman
 
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/08-Nodejs-02/Informe/Imagenes/Postusuario2.png">
+</p>
 
 <br>
 <a href="#cabecera">A la cabecera</a>
