@@ -18,7 +18,7 @@
 //  to change `assets/styles/importer.less` instead.)
 var cssFilesToInject = [
 //  'styles/**/*.css'
-    'styles/estilos2.css'
+    'styles/estilos.css'
 ];
 
 
@@ -27,8 +27,8 @@ var cssFilesToInject = [
 var jsFilesToInject = [
 
   // Load sails.io before everything else
- 
-  'app/app.js',  
+  'js/dependencies/sails.io.js',
+   
 
   // Dependencies like jQuery, or Angular are brought in here
   'js/dependencies/**/*.js',
