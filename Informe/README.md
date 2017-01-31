@@ -136,12 +136,12 @@ es una librería JavaScript que nos permite configurar tareas automáticas y as�
 
 <a name="desarrollo"></a>
 ## Desarrollo del informe
-Para instalar sails se debe ejecutar el siguiente comando ´´npm install sails´´:
+Para instalar sails se debe ejecutar el siguiente comando ```npm install sails```:
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/10-sails-01/Informe/Imagenes/instalacion.png">
 
-Para crear un proyecto se debe ejecutar el comando ´´sails new nombreProyecto´´ en este caso se creará el proyecto Mascotas:
+Para crear un proyecto se debe ejecutar el comando ```sails new nombreProyecto``` en este caso se creará el proyecto Mascotas:
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/10-sails-01/Informe/Imagenes/proyecto.png">
@@ -156,7 +156,7 @@ A continuacion se puede observar las carpetas creadas en el proyecto Mascotas:
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/10-sails-01/Informe/Imagenes/carpetas.png">
 
-Para ejecutar el prouecto creado se lo debe realizar con el comando ´´sails lift´´.
+Para ejecutar el prouecto creado se lo debe realizar con el comando ```sails lift```.
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/10-sails-01/Informe/Imagenes/ejecucion.png">
@@ -167,7 +167,7 @@ Para poder observar desde el navegador se lo realiza con el puerto 1337.
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/10-sails-01/Informe/Imagenes/ejecucionN.png">
 
-En el archivo pipeline.js se especifican la ubicación de los archivos css que se utiliza la aplicación.
+En el archivo ```pipeline.js``` se especifican la ubicación de los archivos css que se utiliza la aplicación.
 
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/10-sails-01/Informe/Imagenes/css.png">
@@ -177,8 +177,38 @@ En el navegador se puede observar los cambios con los nuevo estilo utilizado:
 <p align="center">
 <img src="https://github.com/Audita/TecnologiasWebConJS/blob/10-sails-01/Informe/Imagenes/cssN.png">
 
+En la carpeta Views se puede encontrar el archivo ```layout.ejs``` en el cual podemos establecer un encabezado y pie de página, el contenido de la página se puede llamar desde otro archivo de la siguiente forma:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/10-sails-01/Informe/Imagenes/body.png">
+
+El contenido del body se encuentra en el archivo ```homepage.ejs```:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/10-sails-01/Informe/Imagenes/homepage.png">
+
+El resultado obtenido es el siguiente:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/10-sails-01/Informe/Imagenes/corridahome.png">
 <br>
 <a href="#cabecera">A la cabecera</a>
+
+En la carpeta config se encuntra el archivo routes.js en el cual se define las necesarias para la aplicación. En este caso la rutaprincipal es la del homepage y las demas son las ciudades Quito, Guayaquil y Cuenca.
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/10-sails-01/Informe/Imagenes/routers.png">
+
+Las los archivos con las vistas en este caso de cada una de las ciudades se deben guardar en la carpeta views:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/10-sails-01/Informe/Imagenes/views.png">
+
+En el navegador se especifica la ruta definida:
+
+<p align="center">
+<img src="https://github.com/Audita/TecnologiasWebConJS/blob/10-sails-01/Informe/Imagenes/rutaguay.png">
+
 
 ## Conclusiones y Recomendaciones
 
