@@ -28,7 +28,19 @@ module.exports = {
     },
     crearUsuario:function(req,res){
         
-        return res.view('vistas/crearUsuario')
+        return res.view('vistas/Usuario/crearUsuario')
+        
+    },
+     error:function(req,res){
+        
+        return res.view('vistas/error',{
+    
+        error:{
+        descripcion:"Usted esta por error en esta ruta dirijase a Inicio",
+        rawError:"Ruta Equivocada",
+        url:"/Inicio"
+}
+});
         
     }
     
