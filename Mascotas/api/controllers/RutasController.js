@@ -41,11 +41,68 @@ module.exports = {
                     usuarios:usuariosEncontrados
                 });
             })
-    }
+    },
 
-};
-
+    editarUsuario: function (req, res) {
+    var parametros =req.allParams();
     
+    if(parametros.id){
+        
+        Usuario.findOne({
+            id:parametros.id
+        }).exec(function (errorInesperado, usuarioEncontrado) {
+
+                if (errorInesperado) {
+                    res.view('vistas/Error', {
+                        error: {
+                            desripcion: "errorInesperado",
+                            rawError: errorInesperado,
+                            url: "/ListarUsuarios"
+                        }
+                    });
+                }
+       
+       
+            if(usuarioEncontrado){
+                
+                res.view('vistas/Usuario/editarUsuario',{
+                    usuariosAEditar:usuarioEncontrado
+                         })   
+                
+            }else{
+                
+                //Manejar el error
+                return res.view('vistas/Error', {
+                error: {
+                desripcion: "el usuario con Id:"+paraemtros.id+"NO existe" ,
+                rawError: "No existe usuario",
+                url: "/ListarUsuarios"
+            }
+                }); 
+            }
+            
+                
+        })
+        
+        }else{
+           
+        return res.view('vistas/Error', {
+            error: {
+                desripcion: "No ha enviado el parametro ID",
+                rawError: "Ruta equivocada",
+                url: "/ListarUsuarios"
+            }
+        });   
+           
+       }
+  
+}
+    
+}
+
+
+
+
     
     
     
