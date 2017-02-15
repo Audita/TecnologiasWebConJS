@@ -56,7 +56,10 @@ module.exports = {
 
                         },
                         success: function () {
-                            return res.ok("Credencial Segura")
+                            
+                            
+                            req.session.credencialSegura = UsuarioEncontrado;
+                            return res.view("vistas/home")
                         },
                     });
 
@@ -88,6 +91,22 @@ module.exports = {
 
 
 
+    },
+    
+    tieneSesion:function(req,res){
+        if(req.session.credencialSegura){
+            return res.ok("Si tiene la credencial segura")
+        }else{
+            return res.forbidden();
+        }
+    },
+    
+    logout:function(req,res){
+        
+        req.session.credencialSegurs = undefined;
+        
+        return res.view("login");
+        
     }
 
     //    DONE - Validar si envian parametros
