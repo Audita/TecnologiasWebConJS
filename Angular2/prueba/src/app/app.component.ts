@@ -20,14 +20,14 @@ export class AppComponent implements OnInit {
 
 
   constructor(private http: Http) {
-    this.apellido = "Eguez";
-    this.nombre = "Adrian";
+    this.apellido = "Quito";
+    this.nombre = "Audita";
     console.log("Inicio el construcor")
   }
 
   ngOnInit() {
-    this.apellido = "Sarzosa";
-    this.nombre = "Vicente";
+    this.apellido = "Reyes";
+    this.nombre = "Jelena";
     console.log("On Init")
   }
 
