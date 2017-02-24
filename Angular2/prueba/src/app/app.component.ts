@@ -1,5 +1,6 @@
 import {Component, OnInit} from "@angular/core";
 import {Response, Http} from "@angular/http";
+import {Form, NgForm} from "@angular/forms";
 import {MasterURLService} from "./services/master-url.service";
 
 @Component({
@@ -9,69 +10,66 @@ import {MasterURLService} from "./services/master-url.service";
 })
 // CTRL A +  -  CTRL + ALT + L
 export class AppComponent implements OnInit {
-  title: string = "Hola Amigos";
-  nombre: string = "";
-  apellido: string = "";
-  colorH4 = "red";
-  tamanoH4 = "52px";
-  classes = "btn btn-block btn-success";
-  error:string="No hay errores";
-  nuevaTienda:any={};
-
-
-
-  constructor(private http: Http,
-              private _masterURL:MasterURLService) {
-    this.apellido = "Quito";
-    this.nombre = "Audita";
-    console.log("Inicio el construcor")
+  title: string = "Bienvenido a Ingresar Tiendas";
+  nuevaTienda= {};
+  tiendas = [];
+  disabledButtons = {
+    NuevaTiendaFormSubmitButton:false
+  };
+  constructor(private _http: Http,
+              private _masterURL: MasterURLService) {
   }
-
   ngOnInit() {
-    this.apellido = "Reyes";
-    this.nombre = "Jelena";
-    console.log("On Init")
+    this._http.get(this._masterURL.url+"Tienda")
+
+      .subscribe(
+        (res:Response)=>{
+          this.tiendas = res.json();
+        },
+        (err)=>{
+          console.log(err);
+        }
+      )
   }
-
-  nombreCompleto(): string {
-    return `${this.nombre} ${this.apellido}`
-  }
-
-  hizoClick() {
-    console.log("Hizo Click");
-    console.log()
-  }
-
-  hizoFocus() {
-    console.log("Hizo focus");
-  }
-
-
-  crearTienda(formulario){
+  crearTienda(formulario:NgForm) {
     console.log(formulario);
-    this.http.post(this._masterURL.url+"Tienda",{
+    this.disabledButtons.NuevaTiendaFormSubmitButton = true;
+    this._http.post(this._masterURL.url+"Tienda", {
       nombre:formulario.value.nombre
     }).subscribe(
       (res)=>{
-        console.log("no hubo error");
+        console.log("No hubo Errores");
         console.log(res);
-        this.nuevaTienda ={}
+        this.nuevaTienda = {};
+        this.disabledButtons.NuevaTiendaFormSubmitButton = false;
       },
       (err)=>{
-        console.log(" hubo error");
+        this.disabledButtons.NuevaTiendaFormSubmitButton = false;
+        console.log("Ocurrio un err or",err);
       },
-    ()=>{
-      console.log("Termino la funcion");
-    }
+      ()=>{
+        console.log("Termino la función vamos a las casas")
+      }
+    );
 
-  );
-      //.post("http://localhost:1337/Tienda", formulario.valores)
-     // .subscribe(
-      //  res=>console.log('Respuesta: ',res),
-       // err=>console.log('Error: ',err),
-      //  ()=>{
-         // console.log("Se completo la accion")
-       // }
-      //);
   }
+
+  borrarTienda(id:number){
+  this._http.delete(this._masterURL.url+"Tienda/"+id)
+    .subscribe(
+      (res)=>{
+        let tiendaBorrada = res.json();
+        this.tiendas =this.tiendas.filter(value=>tiendaBorrada.id=value.id)
+      },
+      (err)=>{
+        console.log(err);
+      }
+
+    )
+  }
+
+
+
 }
+
+
