@@ -8,7 +8,7 @@
       <form action="mascota/editarMascota" method="post">
         <div class="form-group">
           <label>Nombre</label>
-          <input required type="text" class="form-control" placeholder="Nombre" name="nombre">
+          <input required type="text" class="form-control" placeholder="Nombre" name="nombre" value="<%=mascota.nombre%>">
         </div>
 
         <div class="form-group">
@@ -35,7 +35,7 @@
         </select>
         <br>
         <input type="hidden" name="id" value="<%=mascota.id%>">
-        <button type="submit" class="btn btn-success">Crear Mascota</button>
+        <button type="submit" class="btn btn-success">Editar Mascota</button>
 
       </form>
     </div>

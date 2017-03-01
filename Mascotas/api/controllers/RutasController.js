@@ -21,6 +21,15 @@ module.exports = {
       usuarios: []
     })
   },
+  error: function (req, res) {
+    return res.view('vistas/Error', {
+      error: {
+        desripcion: "Usted esta por error en esta Ruta dirijase a Inicio",
+        rawError: "Ruta equivocada",
+        url: "/Inicio"
+      }
+    });
+  },
   crearUsuario: function (req, res) {
     return res.view('vistas/crearUsuario', {
       title: 'Crear Usuarios'
@@ -128,18 +137,70 @@ module.exports = {
   crearRaza: function (req, res) {
 
 
-    return res.view('vistas/Raza/crearRaza', {
-      title: 'Crear Raza'
-    })
+    return res.view('vistas/Raza/crearRaza');
   },
   listarRazas: function (req, res) {
+      Raza.find()
+        .exec(function (errorIndefinido, razasEncontrados) {
 
-    Raza.find().exec(function (error, razasEncontrados) {
-      if (error) return res.serverError()
-      return res.view('vistas/Raza/listarRazas', {
-        title: 'Lista de Razas',
-        razas: razasEncontrados
+          if (errorIndefinido) {
+            res.view('vistas/Error', {
+              error: {
+                desripcion: "Hubo un problema cargando las razas",
+                rawError: errorIndefinido,
+                url: "/listarRazas"
+              }
+            });
+          }
+
+          res.view('vistas/Raza/listarRazas', {
+            razas: razasEncontrados
+          });
+        })
+    },
+  editarRaza: function (req, res) {
+
+    var parametros = req.allParams();
+
+    if (parametros.id) {
+
+      Raza.findOne({
+        id: parametros.id
+      }).exec(function (errorInesperado, RazaEncontrado) {
+        if (errorInesperado) {
+          return res.view('vistas/Error', {
+            error: {
+              desripcion: "Error Inesperado",
+              rawError: errorInesperado,
+              url: "/listarRazas"
+            }
+          });
+        }
+        if(RazaEncontrado){
+          return res.view("vistas/Raza/editarRaza",{
+            razaAEditar:RazaEncontrado,
+            inicioSesion:true
+          });
+        }else{
+          return res.view('vistas/Error', {
+            error: {
+              desripcion: "La raza con id: "+parametros.id+" no existe.",
+              rawError: "No existe la raza",
+              url: "/listarRazas"
+            }
+          });
+        }
       })
-    });
+    } else {
+
+      return res.view('vistas/Error', {
+        error: {
+          desripcion: "No ha enviado el parametro ID",
+          rawError: "Faltan Parametros",
+          url: "/listarRazas"
+        }
+      });
+
+    }
   }
 };

@@ -1,0 +1,12 @@
+<div class="page-header" >
+  <h1 align="center">Editar Raza: <%=razaAEditar.nombre %></h1>
+</div>
+<form action="/Raza/editarRaza" method="post">
+
+  <div class="form-group">
+    <label>Nombre:</label>
+    <input type="text" class="form-control" placeholder="Ingrese el nombre" name="nombre" value="<%=razaAEditar.nombre %>">
+  </div>
+  <input type="hidden" name="idRaza" value="<%=razaAEditar.id%>">
+  <button type="submit" class="btn btn-success">Editar Raza</button>
+</form>

@@ -86,8 +86,7 @@ module.exports = {
             return res.view('error', {
               title: 'Error',
               error: {
-                descripcion: 'hubo un error enviando los parametros:',
-                error,
+                descripcion: 'hubo un error enviando los parametros:' + error,
                 url: '/crearUsuario'
               }
             });
@@ -145,8 +144,7 @@ module.exports = {
             return res.view('error', {
               title: 'Error',
               error: {
-                descripcion: 'hubo un error enviando los parametros:',
-                error,
+                descripcion: 'hubo un error enviando los parametros:'+ error,
                 url: '/crearUsuario'
               }
             });
